@@ -6,9 +6,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors:{
+      bgTL: '#000000',
+      bgVIA: '#6C00F4',
+      bgBR: '#29F2FF',
+      bgWH: '#FFFFFF',
+      textPink: '#FF00B8'
+    },
     extend: {
       fontFamily: {
-        burtons: "burtons"
+        play: "play",
+        playB: 'play-Bold',
       }
     },
   },
