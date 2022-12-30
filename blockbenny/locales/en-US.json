@@ -1,0 +1,36 @@
+{ 
+    "home": { 
+        "title": "<div className='mt-14 text-2xl'>Hey, my name is</div><div className='mt-1 text-4xl text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl'>and I am a</div><div className='mt-1 text-4xl text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
+    },
+    "techStack": {
+        "languages": {
+            "title": "Languages",
+            "values": [
+            {"x":"C# .NET", "y": 95},
+            {"x":"SQL", "y": 90},
+            {"x":"JS / TS", "y": 90},
+            {"x":"Solidity", "y": 85},
+            {"x":"JAVA", "y": 80},
+            {"x":"HTML / CSS", "y": 80},
+            {"x":"VBScript", "y": 80},
+            {"x":"Python", "y": 70},
+            {"x":"GO", "y": 60},
+            {"x":"PHP", "y": 60},
+            {"x":"Ruby", "y": 50}
+        ]},
+        "frameworks": {
+            "title": "Framework & DBs",
+            "values": [
+            {"x":".NET", "y": 95},
+            {"x":"Node / Express JS", "y": 90},
+            {"x":"MSSQL / Oracle", "y": 90},
+            {"x":"MongoDB", "y": 85},
+            {"x":"React.js / Vue.js / Nuxt.js", "y": 80},
+            {"x":"Tailwind CSS", "y": 80},
+            {"x":"Bootstrap", "y": 80},
+            {"x":"Web3.js / Ether.js", "y": 70},
+            {"x":"JQuery", "y": 60},
+            {"x":"RoR", "y": 60}
+        ]}
+    }
+}

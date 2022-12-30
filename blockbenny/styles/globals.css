@@ -257,3 +257,9 @@ a {
   }
 
 }
+
+.apexcharts-text{
+  fill: white;
+  font-size: 12px;
+  font-weight: 750;
+}
