@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -262,4 +264,34 @@ a {
   fill: white;
   font-size: 12px;
   font-weight: 750;
+}
+
+.resumeCard{
+  width:40rem;
+  height:50rem;
+}
+
+.aboutPFP{
+  width: 20rem;
+  margin-bottom: 30rem;
+}
+
+.about1{
+  width: 16rem;
+  margin-left: 22rem;
+}
+
+.about2{
+  width: 16rem;
+  margin-top: 40rem;
+}
+
+.about3{
+  width: 18rem;
+  margin-right: 30rem;
+  margin-top:15rem;
+}
+
+.home-title{
+  font-size: 3.5rem;
 }

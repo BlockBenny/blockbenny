@@ -6,19 +6,28 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors:{
-      bgTL: '#000000',
-      bgVIA: '#6C00F4',
-      bgBR: '#29F2FF',
-      bgWH: '#FFFFFF',
-      textPink: '#FF00B8'
-    },
     extend: {
+      text: {
+        title: "font-size: 2.25rem; line-height: 2.5rem;",
+      },
+      colors: {
+        bgTL: "#000000",
+        bgVIA: "#6C00F4",
+        bgTo: "#3C0087",
+        bgBR: "#29F2FF",
+        c: "#FFFFFF",
+        textPink: "#FF00B8",
+      },
+      boxShadow: {
+        "3xl":
+          "15px 12px 49px -9px rgb(0 0 0 / 1.1), 0 0px 0px 0px rgb(0 0 0 / 0.1)",
+        btn: "10px 9px 20px -7px rgb(0 0 0 / 1.1), 0 0 0 0 rgb(0 0 0 / 0.1)",
+      },
       fontFamily: {
         play: "play",
-        playB: 'play-Bold',
-      }
+        playB: "play-Bold",
+      },
     },
   },
   plugins: [],
-}
+};

@@ -1,36 +1,215 @@
-{ 
-    "home": { 
-        "title": "<div className='mt-14 text-2xl'>Hey, my name is</div><div className='mt-1 text-4xl text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl'>and I am a</div><div className='mt-1 text-4xl text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
+{
+    "home": {
+        "title": "<div className='mt-14 text-2xl'>Hey, my name is</div><div className='mt-1 home-title text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl'>and I am a</div><div className='mt-1 home-title text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
     },
     "techStack": {
         "languages": {
             "title": "Languages",
             "values": [
-            {"x":"C# .NET", "y": 95},
-            {"x":"SQL", "y": 90},
-            {"x":"JS / TS", "y": 90},
-            {"x":"Solidity", "y": 85},
-            {"x":"JAVA", "y": 80},
-            {"x":"HTML / CSS", "y": 80},
-            {"x":"VBScript", "y": 80},
-            {"x":"Python", "y": 70},
-            {"x":"GO", "y": 60},
-            {"x":"PHP", "y": 60},
-            {"x":"Ruby", "y": 50}
-        ]},
+                {
+                    "x": "C# .NET",
+                    "y": 4
+                },
+                {
+                    "x": "SQL",
+                    "y": 4
+                },
+                {
+                    "x": "JS / TS",
+                    "y": 4
+                },
+                {
+                    "x": "Solidity",
+                    "y": 4
+                },
+                {
+                    "x": "HTML / CSS",
+                    "y": 3
+                },
+                {
+                    "x": "Python",
+                    "y": 3
+                },
+                {
+                    "x": "JAVA",
+                    "y": 2
+                },
+                {
+                    "x": "VBScript",
+                    "y": 2
+                },
+                {
+                    "x": "GO",
+                    "y": 2
+                },
+                {
+                    "x": "PHP",
+                    "y": 2
+                },
+                {
+                    "x": "Ruby",
+                    "y": 1
+                }
+            ]
+        },
         "frameworks": {
             "title": "Framework & DBs",
             "values": [
-            {"x":".NET", "y": 95},
-            {"x":"Node / Express JS", "y": 90},
-            {"x":"MSSQL / Oracle", "y": 90},
-            {"x":"MongoDB", "y": 85},
-            {"x":"React.js / Vue.js / Nuxt.js", "y": 80},
-            {"x":"Tailwind CSS", "y": 80},
-            {"x":"Bootstrap", "y": 80},
-            {"x":"Web3.js / Ether.js", "y": 70},
-            {"x":"JQuery", "y": 60},
-            {"x":"RoR", "y": 60}
-        ]}
-    }
+                {
+                    "x": ".NET",
+                    "y": 4
+                },
+                {
+                    "x": "Node / Express JS",
+                    "y": 4
+                },
+                {
+                    "x": "MSSQL / Oracle",
+                    "y": 4
+                },
+                {
+                    "x": "MongoDB",
+                    "y": 3
+                },
+                {
+                    "x": "React.js / Vue.js / Nuxt.js",
+                    "y": 3
+                },
+                {
+                    "x": "Tailwind CSS",
+                    "y": 3
+                },
+                {
+                    "x": "Bootstrap",
+                    "y": 3
+                },
+                {
+                    "x": "Web3.js / Ether.js",
+                    "y": 3
+                },
+                {
+                    "x": "JQuery",
+                    "y": 2
+                },
+                {
+                    "x": "RoR",
+                    "y": 1
+                }
+            ]
+        },
+        "tools": {
+            "title": "Tools & Hosting",
+            "values": [
+                {
+                    "x": "Asana",
+                    "y": 5
+                },
+                {
+                    "x": "Slab",
+                    "y": 5
+                },
+                {
+                    "x": "VS / VSCode",
+                    "y": 5
+                },
+                {
+                    "x": "MS Teams / Azure DevOps",
+                    "y": 4
+                },
+                {
+                    "x": "Google Workspace",
+                    "y": 4
+                },
+                {
+                    "x": "Git / GitHub / GitLab",
+                    "y": 4
+                },
+                {
+                    "x": "Remix",
+                    "y": 4
+                },
+                {
+                    "x": "Linode",
+                    "y": 4
+                },
+                {
+                    "x": "AWS",
+                    "y": 3
+                },
+                {
+                    "x": "Jira",
+                    "y": 2
+                },
+                {
+                    "x": "Slack",
+                    "y": 1
+                }
+            ]
+        },
+        "softSkills": {
+            "title": "Soft Skills",
+            "values": [
+                {
+                    "x": "Remote Work (It is a Skill)",
+                    "y": 5
+                },
+                {
+                    "x": "German",
+                    "y": 5
+                },
+                {
+                    "x": "English",
+                    "y": 4
+                },
+                {
+                    "x": "Project Management",
+                    "y": 4
+                },
+                {
+                    "x": "Active Communication",
+                    "y": 4
+                },
+                {
+                    "x": "Leadership",
+                    "y": 4
+                },
+                {
+                    "x": "Trainer",
+                    "y": 3
+                }
+            ]
+        }
+    },
+    "resume": [
+        {
+            "topic": "2012 - 2014",
+            "firstTitle": "Employee",
+            "firstValue": "Muenchener Verein eG",
+            "secondTitle": "Languages",
+            "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
+            "thirdTitle": "Tech",
+            "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+            "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+        },
+        {
+            "topic": "2012 - 2014",
+            "firstTitle": "Employee",
+            "firstValue": "Muenchener Verein eG",
+            "secondTitle": "Languages",
+            "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
+            "thirdTitle": "Tech",
+            "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+            "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+        },
+        {
+            "topic": "2012 - 2014",
+            "firstTitle": "Employee",
+            "firstValue": "Muenchener Verein eG",
+            "secondTitle": "Languages",
+            "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
+            "thirdTitle": "Tech",
+            "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+            "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+        }
+    ]
 }
