@@ -1,4 +1,4 @@
-import React, { Component, useRef, useEffect } from "react";
+import React, { Component, useRef, useEffect, useState } from "react";
 import Head from "next/head";
 import { CiTwitter, CiLinkedin } from "react-icons/ci";
 import { AiFillGithub } from "react-icons/ai";
@@ -8,21 +8,74 @@ import Home from "./home";
 import Resume from "./resume";
 import About from "./about";
 import dynamic from "next/dynamic";
-import enUS from "../locales/en-US.json";
+import { AiOutlineDownCircle } from "react-icons/ai";
 
 export default function Index() {
   const TechStack = dynamic(() => import("./techstack"), { ssr: false });
 
-  const nextSection2 = (id) => {
-    console.log("nextsection2");
-    console.log(id);
-    var ref = document.getElementById(id);
-    setTimeout(function () {
-      ref.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }, 100);
+  useEffect(() => {
+    const onScroll = () => SetNextSection(window.pageYOffset);
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }, []);
+
+  var lastY = 0;
+  const SetNextSection = (px) => {
+    if (lastY > 900 && px < 900) {
+      switchSection("navHome");
+      changeNavigator("techstack", "Tech Stack", false);
+    }
+    if ((lastY < 900 && px > 900) || (lastY > 2000 && px < 2000)) {
+      switchSection("navTech");
+      changeNavigator("resume", "Resume", false);
+    }
+    if ((lastY < 2000 && px > 2000) || (lastY > 3500 && px < 3500)) {
+      switchSection("navResume");
+      changeNavigator("about", "About Me", false);
+    }
+    if (lastY < 3500 && px > 3500) {
+      switchSection("navAbout");
+      changeNavigator("", "", true);
+    }
+    lastY = px;
+  };
+
+  const switchSection = (current) => {
+    clearNav();
+    var ref = document.getElementById(current);
+    ref.classList.add("text-textPink", "font-playB");
+  };
+
+  const changeNavigator = (next, title, hidden) => {
+    var ref = document.getElementById("navigator");
+    if (hidden) {
+      ref.classList.add("hidden");
+    } else {
+      ref.classList.remove("hidden");
+      nextNavSection = next;
+      var refTitle = document.getElementById("navigatorTitle");
+      refTitle.innerHTML = title;
+    }
+  };
+
+  const clearNav = () => {
+    var ref = document.getElementById("navHome");
+    ref.classList.remove("text-textPink", "font-playB");
+    var ref = document.getElementById("navTech");
+    ref.classList.remove("text-textPink", "font-playB");
+    var ref = document.getElementById("navResume");
+    ref.classList.remove("text-textPink", "font-playB");
+    var ref = document.getElementById("navAbout");
+    ref.classList.remove("text-textPink", "font-playB");
+  };
+
+  var nextNavSection = "techstack";
+
+  const scrollIntoSection = (sectionId) => {
+    console.log("Scroll into section");
+    console.log(sectionId);
+    var el = document.getElementById(sectionId);
+    console.log(el.offsetTop);
+    window.scroll({ top: el.offsetTop, behavior: "smooth" });
   };
 
   return (
@@ -36,18 +89,17 @@ export default function Index() {
         <main className="font-play min-h-screen bg-gradient-to-br from-bgTL via-bgVIA to-bgTL">
           <nav
             sticky="top"
-            className="z-10 px-32 fixed min-w-full top-0 py-10 flex justify-between pr-48"
+            className="z-50 px-32 fixed min-w-full top-0 py-10 flex justify-between pr-48"
           >
-            <div className="flex">
-              <Image className="mr-10" src={logo} />
+            <div className="flex z-80 relative">
+              <Image className="ml-32" src={logo} />
               <a
                 onClick={() => {
-                  nextSection2("home");
+                  scrollIntoSection("home");
                 }}
                 className="text-white px-4 py-2 ml-8 text-xl"
-                href="#"
               >
-                <h1 className="self-center text-3xl text-white font-playB">
+                <h1 className="cursor-pointer  self-center text-3xl text-white font-playB">
                   BlockBenny
                 </h1>
               </a>
@@ -55,56 +107,74 @@ export default function Index() {
             <ul className="flex items-center pr-10">
               <li>
                 <a
+                  id="navHome"
                   onClick={() => {
-                    nextSection2("home");
+                    scrollIntoSection("home");
                   }}
-                  className="text-white px-4 py-2 ml-8 text-xl"
-                  href="#"
+                  className="cursor-pointer text-textPink font-playB px-4 py-2 ml-8 text-xl"
                 >
                   Home
                 </a>
               </li>
               <li>
                 <a
+                  id="navTech"
                   onClick={() => {
-                    nextSection2("techstack");
+                    scrollIntoSection("techstack");
                   }}
-                  className="text-white px-4 py-2 ml-8 text-xl"
-                  href="#"
+                  className="cursor-pointer  px-4 py-2 ml-8 text-xl"
                 >
                   Tech Stack
                 </a>
               </li>
               <li>
                 <a
+                  id="navResume"
                   onClick={() => {
-                    nextSection2("resume");
+                    scrollIntoSection("resume");
                   }}
-                  className="text-white px-4 py-2 ml-8 text-xl"
-                  href="#"
+                  className=" cursor-pointer px-4 py-2 ml-8 text-xl"
                 >
                   Resume
                 </a>
               </li>
               <li>
                 <a
+                  id="navAbout"
                   onClick={() => {
-                    nextSection2("about");
+                    scrollIntoSection("about");
                   }}
-                  className="text-white px-4 py-2 ml-8 text-xl"
-                  href="#"
+                  className="cursor-pointer  px-4 py-2 ml-8 text-xl"
                 >
                   About Me
                 </a>
               </li>
               <li>
-                <CiTwitter className="h-10 w-10 ml-8" />
+                <CiTwitter
+                  onClick={() =>
+                    window.open("https://twitter.com/Wen_Alpha", "_blank")
+                  }
+                  className="cursor-pointer h-10 w-10 ml-8"
+                />
               </li>
               <li>
-                <CiLinkedin className="h-10 w-10 ml-8" />
+                <CiLinkedin
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/in/bennyblock/",
+                      "_blank"
+                    )
+                  }
+                  className="cursor-pointer h-10 w-10 ml-8"
+                />
               </li>
               <li>
-                <AiFillGithub className="h-10 w-10 ml-8" />
+                <AiFillGithub
+                  onClick={() =>
+                    window.open("https://github.com/BlockBenny", "_blank")
+                  }
+                  className="cursor-pointer h-10 w-10 ml-8"
+                />
               </li>
             </ul>
           </nav>
@@ -112,6 +182,36 @@ export default function Index() {
           <TechStack />
           <Resume />
           <About />
+          <div
+            id="navigator"
+            className="w-full b-5 flex justify-center fixed bottom-0 z-80"
+          >
+            <div
+              id="navigatorTitle"
+              className="z-20 absolute bottom-24 text-xl"
+            >
+              Tech Stack
+            </div>
+            <AiOutlineDownCircle
+              id="navigatorCircle"
+              onClick={() => scrollIntoSection(nextNavSection)}
+              className="z-20 cursor-pointer absolute bottom-12 h-10 w-10"
+            />
+          </div>
+          <div className="area">
+            <ul className="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </main>
       </div>
     </>

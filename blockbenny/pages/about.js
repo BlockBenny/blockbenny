@@ -62,13 +62,31 @@ export default function About() {
             <div className="mt-2">
               <ul className="flex items-center">
                 <li>
-                  <CiTwitter className="h-10 w-10" />
+                  <CiTwitter
+                    onClick={() =>
+                      window.open("https://twitter.com/Wen_Alpha", "_blank")
+                    }
+                    className="cursor-pointer h-10 w-10"
+                  />
                 </li>
                 <li>
-                  <CiLinkedin className="h-10 w-10 ml-8" />
+                  <CiLinkedin
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/in/bennyblock/",
+                        "_blank"
+                      )
+                    }
+                    className="cursor-pointer h-10 w-10 ml-8"
+                  />
                 </li>
                 <li>
-                  <AiFillGithub className="h-10 w-10 ml-8" />
+                  <AiFillGithub
+                    onClick={() =>
+                      window.open("https://github.com/BlockBenny", "_blank")
+                    }
+                    className="cursor-pointer h-10 w-10 ml-8"
+                  />
                 </li>
               </ul>
             </div>

@@ -102,25 +102,29 @@ export default function TechStack() {
     ]);
     console.log("Change Pink");
 
-    document.getElementById("languageTitle").classList.remove("text-textPink");
+    document
+      .getElementById("languageTitle")
+      .classList.remove("text-textPink", "font-playB");
     document
       .getElementById("frameworksTitle")
-      .classList.remove("text-textPink");
-    document.getElementById("toolsTitle").classList.remove("text-textPink");
+      .classList.remove("text-textPink", "font-playB");
+    document
+      .getElementById("toolsTitle")
+      .classList.remove("text-textPink", "font-playB");
     document
       .getElementById("softSkillsTitle")
-      .classList.remove("text-textPink");
+      .classList.remove("text-textPink", "font-playB");
 
-    document.getElementById(elId).classList.add("text-textPink");
+    document.getElementById(elId).classList.add("text-textPink", "font-playB");
   }
 
   return (
     <>
-      <section id="techstack" className=" px-32 min-h-screen">
+      <section id="techstack" className="z-10 px-32 min-h-screen">
         <div className="flex justify-between pt-64 pl-64 pr-64 pb-12">
           <button
             id="languageTitle"
-            className="text-2xl  p-4 rounded  text-textPink"
+            className="text-2xl  p-4 rounded  text-textPink font-playB"
             onClick={() => {
               ChangeChartSeries(
                 enUS.techStack.languages.values,
@@ -164,7 +168,7 @@ export default function TechStack() {
             {enUS.techStack.softSkills.title}
           </button>
         </div>
-        <div id="chart" className="pl-64 pr-80 pt-10" />
+        <div id="chart" className="z-50 relative pl-64 pr-80 pt-10" />
       </section>
     </>
   );

@@ -24,10 +24,10 @@ export default function Resume() {
           }}
           className="m-auto"
         >
-          <div className="flex justify-between pr-64 pl-64">
+          <div className="z-40 flex justify-between pr-64 pl-64">
             {enUS.resume.map((card, index) => (
               <>
-                <div className="m-10 resumeCard rounded-3xl overflow-hidden bg-bgTo bg-opacity-30 shadow-3xl">
+                <div className="z-40 m-10 resumeCard rounded-3xl overflow-hidden bg-bgTo bg-opacity-30 shadow-3xl">
                   <div class="grid grid-cols-2 gap-2 p-5">
                     <div class="text-3xl font-playB h-1 font-bold text-center p-10 rounded-lg col-span-2 flex flex-col justify-center items-center">
                       <p className="align-middle">{card.topic}</p>

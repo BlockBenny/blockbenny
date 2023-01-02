@@ -6,13 +6,6 @@ import enUS from "../locales/en-US.json";
 import parse from "html-react-parser";
 
 export default function Home() {
-  const nextSection = () => {
-    console.log("nextsection");
-    document
-      .getElementById("techstack")
-      .scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
   return (
     <>
       <section id="home" className=" px-32 min-h-screen">
@@ -30,39 +23,36 @@ export default function Home() {
               <div className="mt-10">
                 <ul className="flex items-center">
                   <li>
-                    <CiTwitter className="h-10 w-10" />
+                    <CiTwitter
+                      onClick={() =>
+                        window.open("https://twitter.com/Wen_Alpha", "_blank")
+                      }
+                      className="cursor-pointer h-10 w-10"
+                    />
                   </li>
                   <li>
-                    <CiLinkedin className="h-10 w-10 ml-8" />
+                    <CiLinkedin
+                      onClick={() =>
+                        window.open(
+                          "https://www.linkedin.com/in/bennyblock/",
+                          "_blank"
+                        )
+                      }
+                      className="cursor-pointer h-10 w-10 ml-8"
+                    />
                   </li>
                   <li>
-                    <AiFillGithub className="h-10 w-10 ml-8" />
+                    <AiFillGithub
+                      onClick={() =>
+                        window.open("https://github.com/BlockBenny", "_blank")
+                      }
+                      className="cursor-pointer h-10 w-10 ml-8"
+                    />
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full b-5 flex justify-center">
-          <div className="z-20 absolute bottom-24 text-xl">Tech Stack</div>
-          <AiOutlineDownCircle
-            onClick={nextSection}
-            className="z-20 cursor-pointer absolute bottom-12 h-10 w-10"
-          />
-        </div>
-        <div className="area">
-          <ul className="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
         </div>
       </section>
     </>
