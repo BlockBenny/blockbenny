@@ -1,3 +1,77 @@
 {
-    "title": "DeBlockBenny"
+    "nav": {
+        "title": "DeBlockBenny",
+        "home": "Home",
+        "techStack": "Tech Stack",
+        "resume": "Lebenslauf",
+        "about": "Über mich"
+    },
+    "home": {
+        "title": "<div className='mt-14 text-2xl'>Hey, mein Name ist</div><div className='mt-1 home-title text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl'>und ich bin ein</div><div className='mt-1 home-title text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
+    },
+    "resume": {
+        "pageOne": [
+            {
+                "topic": "Ausbildung",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Muenchener Verein eG 2014-2016",
+                "secondTitle": "Programmiersprachen",
+                "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
+                "thirdTitle": "Tech",
+                "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+                "description": "<p className='pb-5'>Ich hatte raining to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Weg zum Full Stack Developer",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Megatech communicatin GmbH 2016-2018",
+                "secondTitle": "Languages",
+                "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
+                "thirdTitle": "Tech",
+                "thirdValue": "MS Teams, Git, MSSQL, Omnitracker, Mention, Oracle",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Eigene Projekte",
+                "firstTitle": "Employee",
+                "firstValue": "Megatech communicatin GmbH 2019-2022",
+                "secondTitle": "Soft Skills",
+                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            }
+        ],
+        "pageTwo": [
+            {
+                "topic": "Ausbildung",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Muenchener Verein eG 2014-2016",
+                "secondTitle": "Programmiersprachen",
+                "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
+                "thirdTitle": "Tech",
+                "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+                "description": "<p className='pb-5'>Ich hatte raining to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Weg zum Full Stack Developer",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Megatech communicatin GmbH 2016-2018",
+                "secondTitle": "Languages",
+                "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
+                "thirdTitle": "Tech",
+                "thirdValue": "MS Teams, Git, MSSQL, Omnitracker, Mention, Oracle",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Eigene Projekte",
+                "firstTitle": "Employee",
+                "firstValue": "Megatech communicatin GmbH 2019-2022",
+                "secondTitle": "Soft Skills",
+                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            }
+        ]
+    },
+    "about": {
+        "description": "<p>Am wichtigsten ist, dass ich ein liebevoller Ehemann, Stiefvater von 4 Kindern und stolz auf mein Leben bin.</p><p className='mt-5'>In den letzten sechs Jahren war ich in der Telekommunikationsbranche beschäftigt , der hauptsächlich B2B-Kunden betreut.<br />Durch diese Rolle habe ich wertvolle Erfahrungen in den Bereichen Kommunikation, Produktentwicklung und Kundenakquise gesammelt.<br />Derzeit bin ich als Full-Stack-Entwickler und Projektmanager tätig.</p> <p className='mt-5'>2018 begann ich mich für die Blockchain-Technologie zu interessieren und bin seitdem begeistert von deren Potenzial.<br />Ich habe für ein Kryptowährungsprojekt im Kundenservice und in der Entwicklung gearbeitet.</p><p className='mt-5'>Im Dezember 2021 habe ich WenServices gegründet, ein Softwareunternehmen, das in unserer Freizeit eine SaaS-Lösung für das Krypto-Business-Management entwickelt.Durch dieses Unternehmen habe ich Erfahrung im Management gesammelt Start-up-Herausforderungen, Führung eines kleinen Teams und Bewältigung verschiedener Aufgaben.Aufgrund der verstreuten Standorte unserer Teammitglieder ers, ich habe meine Fähigkeiten in englischer Kommunikation und Verhandlung verbessert.</p><p className='mt-5'>Zusätzlich habe ich Kurse in Solidity belegt und mehrere Projekte mit der Ethereum-Blockchain abgeschlossen. Als Entwickler, Projektmanager und Gründer habe ich eine Reihe von Hard- und Soft-Skills entwickelt.</p><p className='mt-5'>Ich beherrsche Remote-Arbeit und setze mich dafür ein, außergewöhnliche Ergebnisse zu liefern.</p>"
+    }
 }

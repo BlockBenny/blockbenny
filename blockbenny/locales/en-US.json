@@ -1,5 +1,11 @@
 {
-    "title": "BlockBenny",
+    "nav": {
+        "title": "BlockBenny",
+        "home": "Home",
+        "techStack": "Tech Stack",
+        "resume": "Resume",
+        "about": "About Me"
+    },
     "home": {
         "title": "<div className='mt-14 text-2xl'>Hey, my name is</div><div className='mt-1 home-title text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl'>and I am a</div><div className='mt-1 home-title text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
     },
@@ -8,7 +14,7 @@
             "title": "Languages",
             "values": [
                 {
-                    "x": "C# .NET",
+                    "x": "C#a .NET",
                     "y": 4
                 },
                 {
@@ -181,36 +187,97 @@
             ]
         }
     },
-    "resume": [
-        {
-            "topic": "2012 - 2014",
-            "firstTitle": "Employee",
-            "firstValue": "Muenchener Verein eG",
-            "secondTitle": "Languages",
-            "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
-            "thirdTitle": "Tech",
-            "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
-            "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
-        },
-        {
-            "topic": "2012 - 2014",
-            "firstTitle": "Employee",
-            "firstValue": "Muenchener Verein eG",
-            "secondTitle": "Languages",
-            "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
-            "thirdTitle": "Tech",
-            "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
-            "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
-        },
-        {
-            "topic": "2012 - 2014",
-            "firstTitle": "Employee",
-            "firstValue": "Muenchener Verein eG",
-            "secondTitle": "Languages",
-            "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
-            "thirdTitle": "Tech",
-            "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
-            "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
-        }
-    ]
+    "resume": {
+        "pageOne": [
+            {
+                "topic": "Ausbildung",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Muenchener Verein eG 2014-2016",
+                "secondTitle": "Programmiersprachen",
+                "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
+                "thirdTitle": "Tech",
+                "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+                "description": "<p className='pb-5'>Ich hatte raining to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Weg zum Full Stack Developer",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Megatech communicatin GmbH 2016-2018",
+                "secondTitle": "Languages",
+                "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
+                "thirdTitle": "Tech",
+                "thirdValue": "MS Teams, Git, MSSQL, Omnitracker, Mention, Oracle",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Projektmanagement B2B",
+                "firstTitle": "Employee",
+                "firstValue": "Megatech communicatin GmbH 2019-2022",
+                "secondTitle": "Soft Skills",
+                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            }
+        ],
+        "pageTwo": [
+            {
+                "topic": "Ausbilder",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Megatech communicatin GmbH 2020-2022",
+                "secondTitle": "Programmiersprachen",
+                "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
+                "thirdTitle": "Tech",
+                "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+                "description": "<p className='pb-5'>Ich hatte raining to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Full Stack Technologien",
+                "firstTitle": "Employee",
+                "firstValue": "WenServices 2022 - Jetzt",
+                "secondTitle": "Soft Skills",
+                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Blockchain",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Privat 2019 - Jetzt",
+                "secondTitle": "Languages",
+                "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
+                "thirdTitle": "Tech",
+                "thirdValue": "MS Teams, Git, MSSQL, Omnitracker, Mention, Oracle",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            }
+        ],
+        "pageThree": [
+            {
+                "topic": "Gründung WenServices",
+                "firstTitle": "Employee",
+                "firstValue": "WenServices 2022 - Jetzt",
+                "secondTitle": "Soft Skills",
+                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "StartUp Entwicklungsumgebung",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Privat 2019 - Jetzt",
+                "secondTitle": "Languages",
+                "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
+                "thirdTitle": "Tech",
+                "thirdValue": "MS Teams, Git, MSSQL, Omnitracker, Mention, Oracle",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            },
+            {
+                "topic": "Hosting & Administration",
+                "firstTitle": "Employee",
+                "firstValue": "WenServices 2022 - Jetzt",
+                "secondTitle": "Soft Skills",
+                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
+                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+            }
+        ]
+    },
+    "about": {
+        "description": "<p>Most importantly, I am a loving husband, stepfather of 4 and proud of my life.</p><p className='mt-5'>For the past six years, I have been employed in the telecommunications industry, serving primarily B2B clients.<br />Through this role, I have gained valuable experience in communication, product development, and customer acquisition.<br />Currently, I serve as a Full Stack Developer and Project Manager.</p><p className='mt-5'>In 2018, I became interested in blockchain technology and have since been enthusiastic about the potential it holds.<br />I have worked for a cryptocurrency project in the customer service and development departments.</p><p className='mt-5'>In December of 2021, I founded WenServices, a software company that is developing a SaaS solution for crypto business management in our spare time. Through this venture, I have gained experience in managing start-up challenges, leading a small team, and handling various tasks. Due to the dispersed location of our team members, I have honed my skills in English communication andnegotiation.</p><p className='mt-5'>Additionally, I have taken courses in Solidity and have completed several projects using the Ethereum blockchain. As a Developer,Project Manager, and founder, I have developed a range of hard and soft skills.</p><p className='mt-5'>I am proficient in remote work and am committed to delivering exceptional results.</p>"
+    }
 }

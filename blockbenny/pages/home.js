@@ -1,3 +1,5 @@
+import React from "react";
+import AppContext from "./helper";
 import { CiTwitter, CiLinkedin } from "react-icons/ci";
 import { AiFillGithub, AiOutlineDownCircle } from "react-icons/ai";
 import Image from "next/image";
@@ -6,6 +8,8 @@ import enUS from "../locales/en-US.json";
 import parse from "html-react-parser";
 
 export default function Home() {
+  const { language, setLanguage } = React.useContext(AppContext);
+
   return (
     <>
       <section id="home" className=" px-32 min-h-screen">
@@ -19,7 +23,7 @@ export default function Home() {
           </div>
           <div className="self-center flex">
             <div className="h-96 w-full bb-text-shadow">
-              {parse(enUS.home.title)}
+              {parse(language.home.title)}
               <div className="mt-10">
                 <ul className="flex items-center">
                   <li>
