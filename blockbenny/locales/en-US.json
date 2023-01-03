@@ -190,7 +190,7 @@
     "resume": {
         "pageOne": [
             {
-                "topic": "Ausbildung",
+                "topic": "Schule & Uni",
                 "firstTitle": "Arbeitgeber",
                 "firstValue": "Muenchener Verein eG 2014-2016",
                 "secondTitle": "Programmiersprachen",
@@ -200,7 +200,7 @@
                 "description": "<p className='pb-5'>Ich hatte raining to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
             },
             {
-                "topic": "Weg zum Full Stack Developer",
+                "topic": "Ausbildung",
                 "firstTitle": "Arbeitgeber",
                 "firstValue": "Megatech communicatin GmbH 2016-2018",
                 "secondTitle": "Languages",
@@ -210,7 +210,7 @@
                 "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
             },
             {
-                "topic": "Projektmanagement B2B",
+                "topic": "Weg zum Full Stack Developer",
                 "firstTitle": "Employee",
                 "firstValue": "Megatech communicatin GmbH 2019-2022",
                 "secondTitle": "Soft Skills",
@@ -220,7 +220,7 @@
         ],
         "pageTwo": [
             {
-                "topic": "Ausbilder",
+                "topic": "Projektmanagement B2B",
                 "firstTitle": "Arbeitgeber",
                 "firstValue": "Megatech communicatin GmbH 2020-2022",
                 "secondTitle": "Programmiersprachen",
@@ -230,7 +230,7 @@
                 "description": "<p className='pb-5'>Ich hatte raining to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
             },
             {
-                "topic": "Full Stack Technologien",
+                "topic": "Ausbilder",
                 "firstTitle": "Employee",
                 "firstValue": "WenServices 2022 - Jetzt",
                 "secondTitle": "Soft Skills",
@@ -238,7 +238,7 @@
                 "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
             },
             {
-                "topic": "Blockchain",
+                "topic": "Full Stack Technologien",
                 "firstTitle": "Arbeitgeber",
                 "firstValue": "Privat 2019 - Jetzt",
                 "secondTitle": "Languages",
@@ -250,7 +250,7 @@
         ],
         "pageThree": [
             {
-                "topic": "Gründung WenServices",
+                "topic": "Blockchain",
                 "firstTitle": "Employee",
                 "firstValue": "WenServices 2022 - Jetzt",
                 "secondTitle": "Soft Skills",
@@ -258,7 +258,7 @@
                 "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
             },
             {
-                "topic": "StartUp Entwicklungsumgebung",
+                "topic": "Gründung WenServices",
                 "firstTitle": "Arbeitgeber",
                 "firstValue": "Privat 2019 - Jetzt",
                 "secondTitle": "Languages",

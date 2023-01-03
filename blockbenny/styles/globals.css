@@ -162,6 +162,7 @@ a {
   animation: animate 75s linear infinite;
   bottom: 0px;
   opacity: 0;
+  z-index: 10;
 }
 
 .circles li:nth-child(1){
@@ -290,4 +291,8 @@ a {
 
 .home-title{
   font-size: 3.5rem;
+}
+
+.alice-carousel{
+  z-index: 30;
 }

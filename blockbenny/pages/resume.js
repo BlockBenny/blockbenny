@@ -28,106 +28,109 @@ export default function Resume() {
           }}
           className="m-auto"
         >
-          <div className="z-40 flex justify-between pr-64 pl-64">
+          <div key={"uno"} className="flex justify-between pr-64 pl-64">
             {language.resume.pageOne.map((card, index) => (
-              <>
-                <div className="z-40 m-10 resumeCard rounded-3xl overflow-hidden bg-bgTo bg-opacity-30 shadow-3xl">
-                  <div class="grid grid-cols-2 gap-2 p-5">
-                    <div class="text-3xl font-playB h-1 font-bold text-center p-10 rounded-lg col-span-2 flex flex-col justify-center items-center">
-                      <p className="align-middle">{card.topic}</p>
-                    </div>
-                    <div className=" h-1 font-bold p-10 rounded-lg flex flex-col justify-center ">
-                      {card.firstTitle}
-                    </div>
-                    <div className=" h-1 font-playB font-bold  p-10 rounded-lg flex flex-col justify-center">
-                      {card.firstValue}
-                    </div>
-                    <div className=" h-1   font-bold  p-10 rounded-lg flex flex-col justify-center ">
-                      {card.secondTitle}
-                    </div>
-                    <div className=" h-1 font-playB  font-bold  p-10 rounded-lg flex flex-col justify-center ">
-                      <p className="align-middle">{card.secondValue}</p>
-                    </div>
-                    <div className=" h-1  font-bold p-10 rounded-lg flex flex-col justify-center ">
-                      {card.thirdTitle}
-                    </div>
-                    <div className=" h-1 font-playB  font-bold p-10 rounded-lg flex flex-col justify-center">
-                      {card.thirdValue}{" "}
-                    </div>
-                    <div className=" h-96 font-bold p-10 rounded-lg col-span-2 row-span-2 flex flex-col justify-center">
-                      {parse(card.description)}
-                    </div>
+              <div
+                key={index}
+                className="z-30 m-10 resumeCard rounded-3xl overflow-hidden bg-gradient-to-br from-cardTL  to-cardBR shadow-3xl"
+              >
+                <div className="grid grid-cols-2 gap-2 p-5">
+                  <div className="text-3xl font-playB h-1 font-bold text-center p-10 rounded-lg col-span-2 flex flex-col justify-center items-center">
+                    <p className="align-middle">{card.topic}</p>
+                  </div>
+                  <div className=" h-1 font-bold p-10 rounded-lg flex flex-col justify-center ">
+                    {card.firstTitle}
+                  </div>
+                  <div className=" h-1 font-playB font-bold  p-10 rounded-lg flex flex-col justify-center">
+                    {card.firstValue}
+                  </div>
+                  <div className=" h-1   font-bold  p-10 rounded-lg flex flex-col justify-center ">
+                    {card.secondTitle}
+                  </div>
+                  <div className=" h-1 font-playB  font-bold  p-10 rounded-lg flex flex-col justify-center ">
+                    <p className="align-middle">{card.secondValue}</p>
+                  </div>
+                  <div className=" h-1  font-bold p-10 rounded-lg flex flex-col justify-center ">
+                    {card.thirdTitle}
+                  </div>
+                  <div className=" h-1 font-playB  font-bold p-10 rounded-lg flex flex-col justify-center">
+                    {card.thirdValue}{" "}
+                  </div>
+                  <div className=" h-96 font-bold p-10 rounded-lg col-span-2 row-span-2 flex flex-col justify-center">
+                    {parse(card.description)}
                   </div>
                 </div>
-              </>
+              </div>
             ))}
           </div>
-          <div className="flex justify-between pr-64 pl-64">
+          <div key={"dos"} className="flex justify-between pr-64 pl-64">
             {enUS.resume.pageTwo.map((card, index) => (
-              <>
-                <div className="m-10 resumeCard rounded-3xl overflow-hidden bg-bgTo bg-opacity-30 shadow-3xl">
-                  <div class="grid grid-cols-2 gap-2 p-5">
-                    <div class="text-3xl font-playB h-1 font-bold text-center p-10 rounded-lg col-span-2 flex flex-col justify-center items-center">
-                      <p className="align-middle">{card.topic}</p>
-                    </div>
-                    <div className=" h-1 font-bold p-10 rounded-lg flex flex-col justify-center ">
-                      {card.firstTitle}
-                    </div>
-                    <div className=" h-1 font-playB font-bold  p-10 rounded-lg flex flex-col justify-center">
-                      {card.firstValue}
-                    </div>
-                    <div className=" h-1   font-bold  p-10 rounded-lg flex flex-col justify-center ">
-                      {card.secondTitle}
-                    </div>
-                    <div className=" h-1 font-playB  font-bold  p-10 rounded-lg flex flex-col justify-center ">
-                      <p className="align-middle">{card.secondValue}</p>
-                    </div>
-                    <div className=" h-1  font-bold p-10 rounded-lg flex flex-col justify-center ">
-                      {card.thirdTitle}
-                    </div>
-                    <div className=" h-1 font-playB  font-bold p-10 rounded-lg flex flex-col justify-center">
-                      {card.thirdValue}{" "}
-                    </div>
-                    <div className=" h-96 font-bold p-10 rounded-lg col-span-2 row-span-2 flex flex-col justify-center">
-                      {parse(card.description)}
-                    </div>
+              <div
+                key={index}
+                className="z-30 m-10 resumeCard rounded-3xl overflow-hidden bg-gradient-to-br from-cardTL  to-cardBR shadow-3xl"
+              >
+                <div className="grid grid-cols-2 gap-2 p-5">
+                  <div className="text-3xl font-playB h-1 font-bold text-center p-10 rounded-lg col-span-2 flex flex-col justify-center items-center">
+                    <p className="align-middle">{card.topic}</p>
+                  </div>
+                  <div className=" h-1 font-bold p-10 rounded-lg flex flex-col justify-center ">
+                    {card.firstTitle}
+                  </div>
+                  <div className=" h-1 font-playB font-bold  p-10 rounded-lg flex flex-col justify-center">
+                    {card.firstValue}
+                  </div>
+                  <div className=" h-1   font-bold  p-10 rounded-lg flex flex-col justify-center ">
+                    {card.secondTitle}
+                  </div>
+                  <div className=" h-1 font-playB  font-bold  p-10 rounded-lg flex flex-col justify-center ">
+                    <p className="align-middle">{card.secondValue}</p>
+                  </div>
+                  <div className=" h-1  font-bold p-10 rounded-lg flex flex-col justify-center ">
+                    {card.thirdTitle}
+                  </div>
+                  <div className=" h-1 font-playB  font-bold p-10 rounded-lg flex flex-col justify-center">
+                    {card.thirdValue}{" "}
+                  </div>
+                  <div className=" h-96 font-bold p-10 rounded-lg col-span-2 row-span-2 flex flex-col justify-center">
+                    {parse(card.description)}
                   </div>
                 </div>
-              </>
+              </div>
             ))}
           </div>
-          <div className="flex justify-between pr-64 pl-64">
+          <div key={"tres"} className="flex justify-between pr-64 pl-64">
             {enUS.resume.pageThree.map((card, index) => (
-              <>
-                <div className="m-10 resumeCard rounded-3xl overflow-hidden bg-bgTo bg-opacity-30 shadow-3xl">
-                  <div class="grid grid-cols-2 gap-2 p-5">
-                    <div class="text-3xl font-playB h-1 font-bold text-center p-10 rounded-lg col-span-2 flex flex-col justify-center items-center">
-                      <p className="align-middle">{card.topic}</p>
-                    </div>
-                    <div className=" h-1 font-bold p-10 rounded-lg flex flex-col justify-center ">
-                      {card.firstTitle}
-                    </div>
-                    <div className=" h-1 font-playB font-bold  p-10 rounded-lg flex flex-col justify-center">
-                      {card.firstValue}
-                    </div>
-                    <div className=" h-1   font-bold  p-10 rounded-lg flex flex-col justify-center ">
-                      {card.secondTitle}
-                    </div>
-                    <div className=" h-1 font-playB  font-bold  p-10 rounded-lg flex flex-col justify-center ">
-                      <p className="align-middle">{card.secondValue}</p>
-                    </div>
-                    <div className=" h-1  font-bold p-10 rounded-lg flex flex-col justify-center ">
-                      {card.thirdTitle}
-                    </div>
-                    <div className=" h-1 font-playB  font-bold p-10 rounded-lg flex flex-col justify-center">
-                      {card.thirdValue}{" "}
-                    </div>
-                    <div className=" h-96 font-bold p-10 rounded-lg col-span-2 row-span-2 flex flex-col justify-center">
-                      {parse(card.description)}
-                    </div>
+              <div
+                key={index}
+                className="m-10 resumeCard rounded-3xl overflow-hidden bg-bgTo bg-opacity-30 shadow-3xl"
+              >
+                <div className="grid grid-cols-2 gap-2 p-5">
+                  <div className="text-3xl font-playB h-1 font-bold text-center p-10 rounded-lg col-span-2 flex flex-col justify-center items-center">
+                    <p className="align-middle">{card.topic}</p>
+                  </div>
+                  <div className=" h-1 font-bold p-10 rounded-lg flex flex-col justify-center ">
+                    {card.firstTitle}
+                  </div>
+                  <div className=" h-1 font-playB font-bold  p-10 rounded-lg flex flex-col justify-center">
+                    {card.firstValue}
+                  </div>
+                  <div className=" h-1   font-bold  p-10 rounded-lg flex flex-col justify-center ">
+                    {card.secondTitle}
+                  </div>
+                  <div className=" h-1 font-playB  font-bold  p-10 rounded-lg flex flex-col justify-center ">
+                    <p className="align-middle">{card.secondValue}</p>
+                  </div>
+                  <div className=" h-1  font-bold p-10 rounded-lg flex flex-col justify-center ">
+                    {card.thirdTitle}
+                  </div>
+                  <div className=" h-1 font-playB  font-bold p-10 rounded-lg flex flex-col justify-center">
+                    {card.thirdValue}{" "}
+                  </div>
+                  <div className=" h-96 font-bold p-10 rounded-lg col-span-2 row-span-2 flex flex-col justify-center">
+                    {parse(card.description)}
                   </div>
                 </div>
-              </>
+              </div>
             ))}
           </div>
         </AliceCarousel>

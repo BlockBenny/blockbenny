@@ -23,7 +23,6 @@ export default function TechStack() {
       xaxis: {
         labels: {
           formatter: function (value) {
-            console.log(value);
             var label = "Undefined";
             switch (value) {
               case 1:
@@ -88,19 +87,21 @@ export default function TechStack() {
       ],
     };
 
-    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    let container = document.createElement("div");
+    container.classList.add("z-30", "relative", "pl-64", "pr-80", "pt-10");
+    let section = document.getElementById("techstack");
+    section.appendChild(container);
+    var chart = new ApexCharts(container, options);
 
     chart.render();
   });
 
   function ChangeChartSeries(values, elId) {
-    console.log("Change Chart Series");
     ApexCharts.exec("techstackChart", "updateSeries", [
       {
         data: values,
       },
     ]);
-    console.log("Change Pink");
 
     document
       .getElementById("languageTitle")
@@ -120,7 +121,7 @@ export default function TechStack() {
 
   return (
     <>
-      <section id="techstack" className="z-10 px-32 min-h-screen">
+      <section id="techstack" className="z-20 px-32 min-h-screen">
         <div className="flex justify-between pt-64 pl-64 pr-64 pb-12">
           <button
             id="languageTitle"
@@ -168,7 +169,7 @@ export default function TechStack() {
             {enUS.techStack.softSkills.title}
           </button>
         </div>
-        <div id="chart" className="z-50 relative pl-64 pr-80 pt-10" />
+        <div id="chart" className="z-30 relative pl-64 pr-80 pt-10" />
       </section>
     </>
   );

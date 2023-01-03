@@ -17,6 +17,8 @@ module.exports = {
         bgBR: "#29F2FF",
         c: "#FFFFFF",
         textPink: "#FF00B8",
+        cardTL: "#3D1492",
+        cardBR: "#521BC3",
       },
       boxShadow: {
         "3xl":

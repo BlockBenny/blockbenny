@@ -17,7 +17,7 @@ export default function Home() {
           <div className="relative flex text-center min-w-full min-h-full place-content-center items-center">
             <Image
               alt="Profile Picture of Benny"
-              className="z-10 ml-32 rounded-3xl absolute w-2/5 drop-shadow-2xl bb-box-shadow"
+              className="z-30 ml-32 rounded-3xl absolute w-2/5 drop-shadow-2xl bb-box-shadow"
               src={pfp}
             />
           </div>

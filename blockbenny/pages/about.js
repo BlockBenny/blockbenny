@@ -15,12 +15,28 @@ export default function About() {
   return (
     <>
       <section id="about" className="min-h-screen">
-        <div class="grid grid-cols-2 gap-2 p-10 min-h-screen">
+        <div className="grid grid-cols-2 gap-2 p-10 min-h-screen">
           <div className="flex justify-center items-center">
-            <Image src={pfp} className="aboutPFP absolute z-40" />
-            <Image src={about1} className="about1 absolute z-50" />
-            <Image src={about2} className="about2 absolute z-20" />
-            <Image src={about3} className="about3 absolute z-30" />
+            <Image
+              alt="First of 4 Pics"
+              src={pfp}
+              className="aboutPFP absolute z-40"
+            />
+            <Image
+              alt="Second of 4 Pics"
+              src={about1}
+              className="about1 absolute z-50"
+            />
+            <Image
+              alt="Third of 4 Pics"
+              src={about2}
+              className="about2 absolute z-20"
+            />
+            <Image
+              alt="Fourth of 4 Pics"
+              src={about3}
+              className="about3 absolute z-30"
+            />
           </div>
           <div className="items-center mt-48 text-2xl pr-48">
             {parse(language.about.description)}
