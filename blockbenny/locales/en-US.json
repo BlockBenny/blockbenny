@@ -7,7 +7,7 @@
         "about": "About Me"
     },
     "home": {
-        "title": "<div className='mt-14 text-2xl'>Hey, my name is</div><div className='mt-1 home-title text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl'>and I am a</div><div className='mt-1 home-title text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
+        "title": "<div className='mt-14 text-2xl fullHd:text-xl'>Hey, my name is</div><div className='mt-1 text-3xl text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl fullHd:text-xl'>and I am a</div><div className='mt-1 4k:home-title text-3xl text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
     },
     "techStack": {
         "languages": {

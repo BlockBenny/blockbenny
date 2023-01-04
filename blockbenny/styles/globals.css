@@ -128,7 +128,8 @@ a {
 }
 
 .bb-box-shadow{
-  box-shadow: 4px 4px 15px black;
+  box-shadow: 16px 14px 25px -9px black;
+  height: 56% !important;
 }
 
 
@@ -263,36 +264,67 @@ a {
   font-weight: 750;
 }
 
-.resumeCard{
-  width:40rem;
-  height:50rem;
-}
-
-.aboutPFP{
-  width: 20rem !important;
-  margin-bottom: 30rem !important;
-}
-
-.about1{
-  width: 16rem !important;
-  margin-left: 22rem !important;
-}
-
-.about2{
-  width: 16rem !important;
-  margin-top: 40rem !important;
-}
-
-.about3{
-  width: 18rem !important;
-  margin-right: 30rem !important;
-  margin-top:15rem !important;
-}
-
 .home-title{
   font-size: 3.5rem;
 }
 
 .alice-carousel{
   z-index: 30;
+}
+
+@layer utilities {
+  @responsive {
+    .resumeCard{
+      width:40rem;
+      height:50rem;
+    }
+    
+    .resumeCardFullHD{
+      width:40rem;
+      height:34rem;
+    }
+
+    .collage0{
+      width: 20rem !important;
+      margin-bottom: 30rem !important;
+    }
+
+    .collage1{
+      width: 16rem !important;
+      margin-left: 22rem !important;
+    }
+
+    .collage2{
+      width: 16rem !important;
+      margin-top: 40rem !important;
+    }
+
+    .collage3{
+      width: 18rem !important;
+      margin-right: 30rem !important;
+      margin-top:15rem !important;
+    }
+
+    .collage0HD{
+      width: 16rem !important;
+      margin-bottom: 25rem !important;
+    }
+    
+    .collage1HD{
+      width: 14rem !important;
+      margin-left: 22rem !important;
+    }
+
+    .collage2HD{
+      width: 16rem !important;
+      margin-top: 32rem !important;
+    }
+
+    .collage3HD{
+      width: 16rem !important;
+      margin-right: 26rem !important;
+      margin-top:13rem !important;
+    }
+
+  }
 }

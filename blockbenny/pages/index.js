@@ -29,21 +29,23 @@ export default function Index() {
   var lastY = 0;
   const SetNextSection = (px) => {
     let _1vh = Math.round(window.innerHeight);
-    console.log(_1vh);
+    let _1vh7 = _1vh / 9 * 7;
+    let _2vh7 = _1vh7 * 2;
+    let _3vh7 = _1vh7 * 3;
 
-    if (lastY > _1vh && px < _1vh) {
+    if (lastY > _1vh7 && px < _1vh7) {
       switchSection("navHome");
       changeNavigator("techstack", language.nav.techStack, false);
     }
-    if ((lastY < 900 && px > 900) || (lastY > 2000 && px < 2000)) {
+    if ((lastY < _1vh7 && px > _1vh7) || (lastY > _2vh7 && px < _2vh7)) {
       switchSection("navTech");
       changeNavigator("resume", language.nav.resume, false);
     }
-    if ((lastY < 2000 && px > 2000) || (lastY > 3500 && px < 3500)) {
+    if ((lastY < _2vh7 && px > _2vh7) || (lastY > _3vh7 && px < _3vh7)) {
       switchSection("navResume");
       changeNavigator("about", language.nav.about, false);
     }
-    if (lastY < 3500 && px > 3500) {
+    if (lastY < _3vh7 && px > _3vh7) {
       switchSection("navAbout");
       changeNavigator("", "", true);
     }
@@ -107,13 +109,13 @@ export default function Index() {
         <main className="font-play min-h-screen bg-gradient-to-br from-bgTL via-bgVIA to-bgTL">
           <nav
             sticky="top"
-            className="z-50 px-32 fixed min-w-full top-0 py-10 flex justify-between pr-48"
+            className="z-50 px-48 fixed min-w-full top-0 py-10 flex justify-between pr-48"
           >
             <div className="flex z-80 relative h-11">
               <Image alt="Logo" className="ml-32" src={logo} />
               <a
                 onClick={() => {
-                  // scrollIntoSection("home");
+                  scrollIntoSection("home");
                 }}
                 className="text-white px-4 py-2 ml-8 text-xl"
               >
@@ -122,7 +124,7 @@ export default function Index() {
                 </h1>
               </a>
             </div>
-            <ul className="flex items-center pr-10">
+            <ul className="flex items-center 4k:pr-10">
               <li>
                 <a
                   id="navHome"

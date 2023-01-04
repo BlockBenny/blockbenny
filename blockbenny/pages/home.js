@@ -14,15 +14,16 @@ export default function Home() {
     <>
       <section id="home" className=" px-32 min-h-screen">
         <div className="grid grid-cols-2 gap-4 min-h-screen">
-          <div className="relative flex text-center place-content-center items-center">
+          <div className="fullHd:w-2/4 fullHd:ml-80 fullHd:mt-16 fullHd:h-2/4 fullHd:self-center bb-box-shadow relative flex text-center place-content-center items-center">
             <Image
+              id="test"
               alt="Profile Picture of Benny"
-              className="z-30 ml-32  rounded-3xl absolute w-2/5 drop-shadow-2xl bb-box-shadow"
+              className="z-30 absolute"
               src={pfp}
             />
           </div>
           <div className="self-center flex">
-            <div className="h-96 w-full bb-text-shadow">
+            <div className="h-96 fullHd:mt-48 fullHd:ml-10 w-full bb-text-shadow">
               {parse(language.home.title)}
               <div className="mt-10">
                 <ul className="flex items-center">

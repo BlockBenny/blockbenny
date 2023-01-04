@@ -112,7 +112,7 @@ export default function TechStack() {
   return (
     <>
       <section id="techstack" className="z-20 px-32 min-h-screen">
-        <div className="flex justify-between pt-64 pl-64 pr-64 pb-12">
+        <div className="flex justify-between 4k:pt-64 fullHd:pt-48 pl-64 pr-64 pb-12">
           <button
             id="languageTitle"
             className="text-2xl  p-4 rounded  text-textPink font-playB"
