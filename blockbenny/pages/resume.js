@@ -58,7 +58,7 @@ export default function Resume() {
             ))}
           </div>
           <div key={"dos"} className="flex justify-between pr-64 pl-64">
-            {enUS.resume.pageTwo.map((card, index) => (
+            {language.resume.pageTwo.map((card, index) => (
               <div
                 key={index}
                 className="z-30 m-10 4k:resumeCard fullHd:resumeCardFullHD fullHd:mt-48 rounded-3xl overflow-hidden bg-gradient-to-br from-cardTL  to-cardBR shadow-3xl"
@@ -87,7 +87,7 @@ export default function Resume() {
             ))}
           </div>
           <div key={"tres"} className="flex justify-between pr-64 pl-64">
-            {enUS.resume.pageThree.map((card, index) => (
+            {language.resume.pageThree.map((card, index) => (
               <div
                 key={index}
                 className="z-30 m-10 4k:resumeCard fullHd:resumeCardFullHD fullHd:mt-48 rounded-3xl overflow-hidden bg-gradient-to-br from-cardTL  to-cardBR shadow-3xl"

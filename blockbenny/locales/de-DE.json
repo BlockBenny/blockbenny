@@ -1,73 +1,91 @@
 {
     "nav": {
-        "title": "DeBlockBenny",
+        "title": "BlockBenny",
         "home": "Home",
         "techStack": "Tech Stack",
         "resume": "Lebenslauf",
         "about": "Über mich"
     },
     "home": {
-        "title": "<div className='mt-14 text-2xl'>Hey, mein Name ist</div><div className='mt-1 home-title text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl'>und ich bin ein</div><div className='mt-1 home-title text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
+        "title": "<div className='mt-14 text-2xl fullHd:text-xl'>Hallo, mein Name ist</div><div className='mt-1 text-3xl text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl fullHd:text-xl'>und ich bin ein</div><div className='mt-1 4k:home-title text-3xl text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
     },
     "resume": {
         "pageOne": [
             {
+                "topic": "Schule & Uni",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "TUM & LMU 2011-2014",
+                "secondTitle": "Tech",
+                "secondValue": "JAVA, HTML, JS, CSS, Perl, Eclipse, Git",
+                "description": "<p className='pb-5'>Nach meinem Abitur zog ich nach München und studierte Elektro- und Informationstechnologien an der TUM.</p><br/><p>Ich wechselte jedoch zu Lehramt Informatik und Physik an der LMU, da ich mich mehr für Programmierung interessierte und gerne mit Menschen arbeiten wollte.</p><br/><p> Nach zwei Semestern und einem Praktikum stellte ich jedoch fest, dass eine schulische Umgebung möglicherweise nicht das Richtige für mich ist.</p>"
+            },
+            {
                 "topic": "Ausbildung",
                 "firstTitle": "Arbeitgeber",
-                "firstValue": "Muenchener Verein eG 2014-2016",
-                "secondTitle": "Programmiersprachen",
-                "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
-                "thirdTitle": "Tech",
-                "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
-                "description": "<p className='pb-5 fullHd:-mt-12'>Ich habe 2011 erfolgreich mein Abitur am Gymnasium Zwiesel gemacht und beschloss, an der Universität in München zu studieren. Ich studierte zunächst Elektro- und Informationstechnologien an der TUM, wechselte aber später zu Lehramt Informatik und Physik an der LMU, weil ich mich vorrangig für Programmierung interessierte und gerne mit Menschen arbeiten wollte. Nach zwei Semestern und einem Praktikum stellte ich jedoch fest, dass eine schulische Umgebung möglicherweise nicht das Richtige für mich ist.</p>"
+                "firstValue": "Muenchener Verein 2014-2016",
+                "secondTitle": "Tech",
+                "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl, JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
+                "description": "<p className='pb-5'>Ich wurde nach meinem Studium an der Universität München als Fachinformatiker für Anwendungsentwicklung beim Münchner Verein e.V. ausgebildet. Die Azubis wurden blockweise in der CSS Akademie unterrichtet und erhielten Schulungen in verschiedenen Programmiersprachen, Frameworks, Netzwerken und Soft Skills.</p><br/><p> Ich arbeitete zwei Jahre lang mit COBOL auf einem Siemens BS2000 und entwickelte und betreute Full-Stack-Anwendungen mit Oracle, JAVA und Webtechnologien.</p>"
             },
             {
                 "topic": "Weg zum Full Stack Developer",
                 "firstTitle": "Arbeitgeber",
                 "firstValue": "Megatech communicatin GmbH 2016-2018",
-                "secondTitle": "Languages",
-                "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
-                "thirdTitle": "Tech",
-                "thirdValue": "MS Teams, Git, MSSQL, Omnitracker, Mention, Oracle",
-                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
-            },
-            {
-                "topic": "Eigene Projekte",
-                "firstTitle": "Employee",
-                "firstValue": "Megatech communicatin GmbH 2019-2022",
-                "secondTitle": "Soft Skills",
-                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
-                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+                "secondTitle": "Tech",
+                "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL, MS Teams, Git, MSSQL, Oracle",
+                "description": "<p className='pb-5'>Nach meiner Ausbildung und fünf Jahren München zog ich in den Bayerischen Wald zurück und wurde bei der Megatech Communication GmbH als Software-Entwickler eingestellt.</p><br/><p>Ich wurde in meinen Full-Stack-Fähigkeiten gefördert und hatte von Anfang an Verantwortung für komplette Systeme.</p><br/><p> Mein erstes großes Projekt war der firmeneigene Webshop auf ASP.NET-Basis, bei dem ich mich in Bezug auf Datenbankstrukturen, E-Commerce, Skripting, Server-Client-Architektur, Sicherheit und Webtechnologien weiterbilden konnte.</p>"
             }
         ],
         "pageTwo": [
             {
-                "topic": "Ausbildung",
+                "topic": "Projektmanagement B2B",
                 "firstTitle": "Arbeitgeber",
-                "firstValue": "Muenchener Verein eG 2014-2016",
-                "secondTitle": "Programmiersprachen",
-                "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl",
-                "thirdTitle": "Tech",
-                "thirdValue": "JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
-                "description": "<p className='pb-5'>Ich hatte raining to become a software developer.</p><br/><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><br/><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><br/><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+                "firstValue": "Megatech communicatin GmbH 2018-Jetzt",
+                "secondTitle": "Skills",
+                "secondValue": "Projektmanagement, Kundenkommunikation, Consulting",
+                "description": "<p className='pb-5'>Nachdem ich mich in meinen Fähigkeiten als Entwickler sicher fühlte, wollte ich neue Dinge lernen und die Gelegenheit nutzen, für einige interne Projekte das Projektmanagement zu übernehmen.</p><br/><p> In den vergangenen Jahren war ich daher immer wieder dafür verantwortlich, Softwareprodukte für Kunden zu entwickeln. Dies umfasste die Bereiche Consulting, Projektplanung, Entwicklung, Tests, Abnahme und Installation.</p><br/><p> In dieser Zeit habe ich viel über Kundenkommunikation, Consulting, Projektplanung, Ressourcenplanung, Produktentwicklung, Versionsmanagement und vieles andere gelernt.</p>"
             },
             {
-                "topic": "Weg zum Full Stack Developer",
+                "topic": "Ausbilder",
                 "firstTitle": "Arbeitgeber",
-                "firstValue": "Megatech communicatin GmbH 2016-2018",
-                "secondTitle": "Languages",
+                "firstValue": "WenServices 2020-Jetzt",
+                "secondTitle": "Skills",
+                "secondValue": "HR, Personalführung, Trainings / Schulungen",
+                "description": "<p className='pb-5'>Da ich schon immer gerne mit Menschen gearbeitet habe, bot sich die Möglichkeit an, die Stelle des leitenden Ausbilders zu übernehmen.</p><br/><p> In dieser Zeit habe ich mehr als acht Auszubildende eingestellt, betreut und auf ihre Abschlussprüfung vorbereitet.</p><br/><p>Ich konnte in dieser Zeit viel Erfahrung in den Bereichen Personalmanagement, Kommunikation, Planung, Schulungen und Vorträge sammeln.</p>"
+            },
+            {
+                "topic": "Full Stack Technologien",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Megatech communicatin GmbH 2016-Jetzt",
+                "secondTitle": "Tech",
                 "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
-                "thirdTitle": "Tech",
-                "thirdValue": "MS Teams, Git, MSSQL, Omnitracker, Mention, Oracle",
-                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+                "description": "<p className='pb-5'>Auch auf der Entwicklungsseite hat sich in dieser Zeit einiges getan. Ich habe mich in neue Technologien eingearbeitet und habe an zahlreichen internen und externen Projekten mitgewirkt.</p><br/><p> In dieser Zeit hat unser Team zahlreiche Softwareprodukte entwickelt und vertrieben, darunter beispielsweise einen UC-Client, ein Wallboard-System, ein internes Ticket- und Arbeitszeiten-Management-Tool, E-Commerce-Anwendungen und vieles mehr.</p><br/><p> Ich habe viel über Javascript/Typescript, Node.js, Vue.js, Webservices, Microservices, HTML/CSS, Bootstrap, MSSQL, Oracle, MongoDB gelernt und habe auch Backend-Services in C# .NET, Java oder Python geschrieben.</p>"
+            }
+        ],
+        "pageThree": [
+            {
+                "topic": "Blockchain",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Privat (2018-jetzt)",
+                "secondTitle": "Tech",
+                "secondValue": "Solidity, EVM, Remix, web3.js, ether.js, LINK, DOT",
+                "description": "<p className='pb-5'>Ich habe zum ersten Mal von Blockchain im Jahr 2012 gehört, mich aber erst 2018 wirklich dafür interessiert. Ich habe viel gelesen, Videos geguckt, Whitepaper studiert und wurde dann Teil eines Crypto-Projekts als Kundendienstmitarbeiter und Entwickler.</p><br/><p> Dort konnte ich Einblicke in die Prozesse eines dezentralen Unternehmens gewinnen und habe fließend Englisch gelernt.</p><br/><p> Das Projekt musste aus finanziellen Gründen jedoch fast alle Mitarbeiter entlassen.</p>"
             },
             {
-                "topic": "Eigene Projekte",
-                "firstTitle": "Employee",
-                "firstValue": "Megatech communicatin GmbH 2019-2022",
-                "secondTitle": "Soft Skills",
-                "secondValue": "Projektmanagement, Ressourcenplanung, Agile Entwicklung, Kommunikation, Consulting",
-                "description": "<p className='pb-5'>I had 2 years of intensive training to become a software developer.</p><p className='pb-5'> Within 2 years and the help of CSS Acadamy I was able to learn how applications, data flow, security and overall software development works.</p><p className='pb-5'>My responsibilities within those 2 years were adjusting web applications built with JAVA, JavaBeans, Oracle DBs, Eclipse, JIRA and other company specific applications.</p><p >I was also responbisible to extend the MainFrame Features on a Siemens BS2000 with COBOL.</p>"
+                "topic": "Gründung WenServices",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Privat 2022 - Jetzt",
+                "secondTitle": "Skills",
+                "secondValue": "StartUp Management, Personalführung, Verhandlungen, Geschäftsführung",
+                "description": "<p className='pb-5'>Im letzten Jahr gründete ich mit einem Freund aus Dänemark WenServices und entwickelte ein Crypto-Management-SaaS-Produkt.</p><br/><p>Ich sammelte Erfahrungen in Personalführung, Start-Up, Projektmanagement, Kommunikation, Aquise, Content-Creation, Social Media, Blockchain-Entwicklung und mehr.</p><br/><p> Ich entwickelte einen eigenen Token und die Blockchain-Website BetWithFriends auf Solidity-Basis, schrieb Bots und erstellte Websites mit react.js und vue.js.</p>"
+            },
+            {
+                "topic": "Hosting & Administration",
+                "firstTitle": "Arbeitgeber",
+                "firstValue": "Alle",
+                "secondTitle": "Skills",
+                "secondValue": "Azure, AWS, Linode, Apache, Docker, Kubernetes, CI",
+                "description": "<p className='pb-5'>Als Full-Stack-Entwickler und Gründer eines Start-Ups muss man sich natürlich nicht nur um Datenbanken und Software kümmern. Man muss auch Kenntnisse im Bereich Netzwerke und Hosting erwerben.</p><br/><p> Um unsere Microservices, Proxies und Websites zu hosten, habe ich viel Erfahrung mit AWS und dessen Umgebung gesammelt. Ich habe auch viel Erfahrung mit Docker, Kubernetes, Apache und verschiedenen Linux-Distributionen gesammelt.</p><br/><p> Bei Megatech hatte ich auch die Möglichkeit, Erfahrungen in der Virtualisierung mit VSphere zu sammeln und umzusetzen.</p>"
             }
         ]
     },
