@@ -9,7 +9,7 @@ import Resume from "./resume";
 import About from "./about";
 import dynamic from "next/dynamic";
 import { AiOutlineDownCircle } from "react-icons/ai";
-import AppContext from "./helper";
+import AppContext from "../helper";
 import deDE from "../locales/de-DE.json";
 import enUS from "../locales/en-US.json";
 import enFlag from "../public/united-kingdom.png";
@@ -28,7 +28,10 @@ export default function Index() {
 
   var lastY = 0;
   const SetNextSection = (px) => {
-    if (lastY > 900 && px < 900) {
+    let _1vh = Math.round(window.innerHeight);
+    console.log(_1vh);
+
+    if (lastY > _1vh && px < _1vh) {
       switchSection("navHome");
       changeNavigator("techstack", language.nav.techStack, false);
     }
@@ -106,7 +109,7 @@ export default function Index() {
             sticky="top"
             className="z-50 px-32 fixed min-w-full top-0 py-10 flex justify-between pr-48"
           >
-            <div className="flex z-80 relative">
+            <div className="flex z-80 relative h-11">
               <Image alt="Logo" className="ml-32" src={logo} />
               <a
                 onClick={() => {
@@ -191,13 +194,13 @@ export default function Index() {
                   className="cursor-pointer h-10 w-10 ml-8"
                 />
               </li>
-              <li>
+              <li className="h-10 w-10 ml-10">
                 <Image
                   src={flagSrc}
                   alt="Language switch Flag"
                   id="languageFlag"
                   onClick={switchLanguage}
-                  className="h-10 w-10 ml-10 cursor-pointer"
+                  className="cursor-pointer"
                 />
               </li>
             </ul>

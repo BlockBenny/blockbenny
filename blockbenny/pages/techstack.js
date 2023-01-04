@@ -1,103 +1,93 @@
-import ApexCharts from "apexcharts";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import enUS from "../locales/en-US.json";
+import dynamic from "next/dynamic";
 
 export default function TechStack() {
-  useEffect(() => {
-    var options = {
-      chart: {
-        id: "techstackChart",
-        type: "bar",
-        height: "40%",
-        width: "100%",
-        toolbar: {
-          show: false,
+  const Charts = dynamic(() => import("react-apexcharts"), { ssr: false });
+
+  const [options, setOptions] = useState({
+    chart: {
+      type: "bar",
+      toolbar: {
+        show: false,
+      },
+    },
+    yaxis: {
+      labels: {
+        minWidth: 300,
+        maxWidth: 300,
+      },
+    },
+    xaxis: {
+      labels: {
+        formatter: function (value) {
+          var label = "Undefined";
+          switch (value) {
+            case 1:
+              label = "Basics";
+              break;
+            case 2:
+              label = "Intermediate";
+              break;
+            case 3:
+              label = "Advanced";
+              break;
+            case 4:
+              label = "Pro";
+              break;
+            case 5:
+              label = "God";
+              break;
+          }
+          return label;
+        },
+      },
+    },
+    grid: {
+      show: true,
+      xaxis: {
+        lines: {
+          show: true,
         },
       },
       yaxis: {
-        labels: {
-          minWidth: 200,
-          maxWidth: 200,
+        lines: {
+          show: false,
         },
       },
-      xaxis: {
-        labels: {
-          formatter: function (value) {
-            var label = "Undefined";
-            switch (value) {
-              case 1:
-                label = "Basics";
-                break;
-              case 2:
-                label = "Intermediate";
-                break;
-              case 3:
-                label = "Advanced";
-                break;
-              case 4:
-                label = "Pro";
-                break;
-              case 5:
-                label = "God";
-                break;
-            }
-            return label;
-          },
+    },
+    states: {
+      hover: {
+        filter: {
+          type: "none",
         },
       },
-      grid: {
-        show: true,
-        xaxis: {
-          lines: {
-            show: true,
-          },
-        },
-        yaxis: {
-          lines: {
-            show: false,
-          },
-        },
-      },
-      states: {
-        hover: {
-          filter: {
-            type: "none",
-          },
-        },
-      },
+    },
+    colors: ["#FFFFFF"],
+    fill: {
+      colors: ["#FF00B8"],
+    },
+    dataLabels: {
+      enabled: false,
+    },
+    markers: {
       colors: ["#FFFFFF"],
-      fill: {
-        colors: ["#FF00B8"],
+    },
+    plotOptions: {
+      bar: {
+        horizontal: true,
       },
-      dataLabels: {
-        enabled: false,
-      },
-      markers: {
-        colors: ["#FFFFFF"],
-      },
-      plotOptions: {
-        bar: {
-          horizontal: true,
-        },
-      },
-      series: [
-        {
-          data: enUS.techStack.languages.values,
-        },
-      ],
-    };
-
-    let container = document.createElement("div");
-    container.classList.add("z-30", "relative", "pl-64", "pr-80", "pt-10");
-    let section = document.getElementById("techstack");
-    section.appendChild(container);
-    var chart = new ApexCharts(container, options);
-
-    chart.render();
+    },
   });
 
+  const [series, setSeries] = useState([
+    {
+      data: enUS.techStack.languages.values,
+    },
+  ]);
+
   function ChangeChartSeries(values, elId) {
-    ApexCharts.exec("techstackChart", "updateSeries", [
+    setSeries([
       {
         data: values,
       },
@@ -169,7 +159,14 @@ export default function TechStack() {
             {enUS.techStack.softSkills.title}
           </button>
         </div>
-        <div id="chart" className="z-30 relative pl-64 pr-80 pt-10" />
+        <Charts
+          id="chart"
+          options={options}
+          series={series}
+          type="bar"
+          height="40%"
+          className="z-30 pr-64 pl-10 relative pt-10"
+        />
       </section>
     </>
   );

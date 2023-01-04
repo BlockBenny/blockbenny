@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "4k": "1921px",
+        fullHd: "1600px",
+      },
       text: {
         title: "font-size: 2.25rem; line-height: 2.5rem;",
       },

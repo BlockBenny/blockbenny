@@ -1,5 +1,5 @@
 import React from "react";
-import AppContext from "./helper";
+import AppContext from "../helper";
 import { CiTwitter, CiLinkedin } from "react-icons/ci";
 import { AiFillGithub, AiOutlineDownCircle } from "react-icons/ai";
 import Image from "next/image";
@@ -14,10 +14,10 @@ export default function Home() {
     <>
       <section id="home" className=" px-32 min-h-screen">
         <div className="grid grid-cols-2 gap-4 min-h-screen">
-          <div className="relative flex text-center min-w-full min-h-full place-content-center items-center">
+          <div className="relative flex text-center place-content-center items-center">
             <Image
               alt="Profile Picture of Benny"
-              className="z-30 ml-32 rounded-3xl absolute w-2/5 drop-shadow-2xl bb-box-shadow"
+              className="z-30 ml-32  rounded-3xl absolute w-2/5 drop-shadow-2xl bb-box-shadow"
               src={pfp}
             />
           </div>

@@ -1,4 +1,4 @@
-import enUS from "../locales/en-US.json";
+import enUS from "./locales/en-US.json";
 import React from "react";
 
 const AppContext = React.createContext({

@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import AppContext from "./helper";
+import AppContext from "../helper";
 import React from "react";
 import enUS from "../locales/en-US.json";
 
@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <AppContext.Provider value={state}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </AppContext.Provider>
   );
 }
