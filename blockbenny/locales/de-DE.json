@@ -7,7 +7,10 @@
         "about": "Über mich"
     },
     "home": {
-        "title": "<div className='mt-14 text-2xl fullHd:text-xl'>Hallo, mein Name ist</div><div className='mt-1 text-3xl text-textPink font-playB'>Benjamin Arand</div><div className='mt-10 text-2xl fullHd:text-xl'>und ich bin ein</div><div className='mt-1 4k:home-title text-3xl text-textPink font-playB'>Full Stack & Blockchain Developer</div>"
+        "title": "Hallo, mein Name ist",
+        "title1": "Benjamin Arand",
+        "title2": "und ich bin ein",
+        "title3": "Full Stack & Blockchain Developer"
     },
     "resume": {
         "pageOne": [

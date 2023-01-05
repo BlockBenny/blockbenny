@@ -17,7 +17,7 @@
             "title": "Languages",
             "values": [
                 {
-                    "x": "C#a .NET",
+                    "x": "C#",
                     "y": 4
                 },
                 {
@@ -25,7 +25,7 @@
                     "y": 4
                 },
                 {
-                    "x": "JS / TS",
+                    "x": "JS",
                     "y": 4
                 },
                 {
@@ -33,7 +33,7 @@
                     "y": 4
                 },
                 {
-                    "x": "HTML / CSS",
+                    "x": "HTML",
                     "y": 3
                 },
                 {
@@ -70,11 +70,11 @@
                     "y": 4
                 },
                 {
-                    "x": "Node / Express JS",
+                    "x": "Node",
                     "y": 4
                 },
                 {
-                    "x": "MSSQL / Oracle",
+                    "x": "MSSQL",
                     "y": 4
                 },
                 {
@@ -82,11 +82,15 @@
                     "y": 3
                 },
                 {
-                    "x": "React.js / Vue.js / Nuxt.js",
+                    "x": "Vue.js",
                     "y": 3
                 },
                 {
-                    "x": "Tailwind CSS",
+                    "x": "React.js",
+                    "y": 3
+                },
+                {
+                    "x": "Tailwind",
                     "y": 3
                 },
                 {
@@ -94,7 +98,11 @@
                     "y": 3
                 },
                 {
-                    "x": "Web3.js / Ether.js",
+                    "x": "Web3.js",
+                    "y": 3
+                },
+                {
+                    "x": "Ether.js",
                     "y": 3
                 },
                 {
@@ -119,19 +127,15 @@
                     "y": 5
                 },
                 {
-                    "x": "VS / VSCode",
+                    "x": "VS",
                     "y": 5
                 },
                 {
-                    "x": "MS Teams / Azure DevOps",
+                    "x": "Azure DevOps",
                     "y": 4
                 },
                 {
-                    "x": "Google Workspace",
-                    "y": 4
-                },
-                {
-                    "x": "Git / GitHub / GitLab",
+                    "x": "Git",
                     "y": 4
                 },
                 {
@@ -160,7 +164,7 @@
             "title": "Soft Skills",
             "values": [
                 {
-                    "x": "Remote Work (It is a Skill)",
+                    "x": "Remote",
                     "y": 5
                 },
                 {
@@ -172,11 +176,11 @@
                     "y": 4
                 },
                 {
-                    "x": "Project Management",
+                    "x": "Pr. Management",
                     "y": 4
                 },
                 {
-                    "x": "Active Communication",
+                    "x": "Communication",
                     "y": 4
                 },
                 {

@@ -14,7 +14,7 @@ export default function TechStack() {
     },
     yaxis: {
       labels: {
-        minWidth: 300,
+        minWidth: 0,
         maxWidth: 300,
       },
     },
@@ -78,6 +78,38 @@ export default function TechStack() {
         horizontal: true,
       },
     },
+    responsive: [
+      {
+        breakpoint: 1000,
+        options: {
+          xaxis: {
+            labels: {
+              formatter: function (value) {
+                var label = "Undefined";
+                switch (value) {
+                  case 1:
+                    label = "20%";
+                    break;
+                  case 2:
+                    label = "40%";
+                    break;
+                  case 3:
+                    label = "60%";
+                    break;
+                  case 4:
+                    label = "80%";
+                    break;
+                  case 5:
+                    label = "100%";
+                    break;
+                }
+                return label;
+              },
+            },
+          },
+        },
+      },
+    ],
   });
 
   const [series, setSeries] = useState([
@@ -93,53 +125,39 @@ export default function TechStack() {
       },
     ]);
 
-    document
-      .getElementById("languageTitle")
-      .classList.remove("text-textPink", "font-playB");
-    document
-      .getElementById("frameworksTitle")
-      .classList.remove("text-textPink", "font-playB");
-    document
-      .getElementById("toolsTitle")
-      .classList.remove("text-textPink", "font-playB");
-    document
-      .getElementById("softSkillsTitle")
-      .classList.remove("text-textPink", "font-playB");
+    document.getElementById("languageTitle").classList.remove("text-textPink", "font-playB");
+    document.getElementById("frameworksTitle").classList.remove("text-textPink", "font-playB");
+    document.getElementById("toolsTitle").classList.remove("text-textPink", "font-playB");
+    document.getElementById("softSkillsTitle").classList.remove("text-textPink", "font-playB");
 
     document.getElementById(elId).classList.add("text-textPink", "font-playB");
   }
 
   return (
     <>
-      <section id="techstack" className="z-20 px-32 min-h-screen">
-        <div className="flex justify-between 4k:pt-64 fullHd:pt-48 pl-64 pr-64 pb-12">
+      <section id="techstack" className="z-20 px-8 lg:px-32 min-h-screen">
+        <div className="text-center lg:flex lg:justify-between pt-24 lg:pt-44 4k:pt-64 fullHd:pt-48 fullHd:pl-64 fullHd:pr-64 pb-12">
           <button
             id="languageTitle"
-            className="text-2xl  p-4 rounded  text-textPink font-playB"
+            className="w-full text-2xl  p-4 rounded  text-textPink font-playB"
             onClick={() => {
-              ChangeChartSeries(
-                enUS.techStack.languages.values,
-                "languageTitle"
-              );
+              ChangeChartSeries(enUS.techStack.languages.values, "languageTitle");
             }}
           >
             {enUS.techStack.languages.title}
           </button>
           <button
             id="frameworksTitle"
-            className="text-2xl  p-4  rounded "
+            className="w-full text-2xl  p-4  rounded "
             onClick={() => {
-              ChangeChartSeries(
-                enUS.techStack.frameworks.values,
-                "frameworksTitle"
-              );
+              ChangeChartSeries(enUS.techStack.frameworks.values, "frameworksTitle");
             }}
           >
             {enUS.techStack.frameworks.title}
           </button>
           <button
             id="toolsTitle"
-            className="text-2xl p-4 rounded "
+            className="w-full text-2xl p-4 rounded "
             onClick={() => {
               ChangeChartSeries(enUS.techStack.tools.values, "toolsTitle");
             }}
@@ -148,25 +166,15 @@ export default function TechStack() {
           </button>
           <button
             id="softSkillsTitle"
-            className="text-2xl p-4 rounded"
+            className="w-full text-2xl p-4 rounded"
             onClick={() => {
-              ChangeChartSeries(
-                enUS.techStack.softSkills.values,
-                "softSkillsTitle"
-              );
+              ChangeChartSeries(enUS.techStack.softSkills.values, "softSkillsTitle");
             }}
           >
             {enUS.techStack.softSkills.title}
           </button>
         </div>
-        <Charts
-          id="chart"
-          options={options}
-          series={series}
-          type="bar"
-          height="40%"
-          className="z-30 pr-64 pl-10 relative pt-10"
-        />
+        <Charts id="chart" options={options} series={series} type="bar" height="40%" className="z-30 -mt-10 lg:-mt-5 lg:pr-32 lg:pl-24 fullHd:pr-80 fullHd:pl-64 relative lg:pt-10" />
       </section>
     </>
   );
