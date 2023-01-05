@@ -356,8 +356,22 @@ a {
   .alice-carousel{
     z-index: 30;
     min-height: 100vh;
-    margin-top: -4rem;
+    margin-top: 8rem;
   }
+}
+
+@media (min-width: 1600px) {
+  .alice-carousel{
+    z-index: 30;
+    min-height: 100vh;
+    margin-top: -8rem;
+  }
+}
+
+
+
+.aboutSection .alice-carousel__wrapper li{
+  max-height: 27rem;
 }
 
 .alice-carousel .alice-carousel__wrapper li{

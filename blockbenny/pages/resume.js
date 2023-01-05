@@ -35,16 +35,16 @@ export default function Resume() {
           fadeOutAnimation={true}
           mouseDragEnabled={true}
           renderPrevButton={() => {
-            return <FcPrevious className="hidden lg:flex cursor-pointer w-20 h-20 p-4 absolute left-1/4 top-2/4"></FcPrevious>;
+            return <FcPrevious className="hidden lg:flex cursor-pointer w-20 h-20 p-4 absolute lg:top-1/3 left-1/4 fullHd:top-2/4"></FcPrevious>;
           }}
           renderNextButton={() => {
-            return <FcNext className="hidden lg:flex cursor-pointer w-20 h-20 p-4 absolute right-1/4 top-2/4"></FcNext>;
+            return <FcNext className="hidden lg:flex cursor-pointer w-20 h-20 p-4 absolute right-1/4 lg:top-1/3 fullHd:top-2/4"></FcNext>;
           }}
           className="m-auto"
         >
           {language.resumes.map((card, index) => (
             <div key={index} className="w-auto h-full flex items-center justify-center p-10">
-              <div className="z-30 4k:resumeCard fullHd:resumeCardFullHD fullHd:mt-48 rounded-3xl overflow-hidden bg-gradient-to-br from-cardTL  to-cardBR shadow-3xl">
+              <div className="z-30 4k:resumeCard lg:resumeCardFullHD fullHd:mt-48 rounded-3xl overflow-hidden bg-gradient-to-br from-cardTL  to-cardBR shadow-3xl">
                 <div className="grid grid-cols-6 4k:gap-2 4k:p-5">
                   <div className="4k:text-3xl fullHd:text-xl font-playB font-bold text-center p-10 4k:p-10 lg:py-10 fullHd:py-10 fullHd:px-10 rounded-lg col-span-6 flex flex-col justify-center items-center">
                     <p className="align-middle">{card.topic}</p>
