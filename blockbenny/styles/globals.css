@@ -344,8 +344,24 @@ a {
   font-size: 3.5rem;
 }
 
-.alice-carousel{
-  z-index: 30;
+@media (max-width: 999px) {
+  .alice-carousel{
+    z-index: 30;
+    min-height: 100vh;
+    margin-top: 6rem;
+  }
+}
+/* 2 */
+@media (min-width: 1000px) {
+  .alice-carousel{
+    z-index: 30;
+    min-height: 100vh;
+    margin-top: -4rem;
+  }
+}
+
+.alice-carousel .alice-carousel__wrapper li{
+  width: 100% !important;
 }
 
 @layer utilities {
@@ -356,8 +372,9 @@ a {
     }
     
     .resumeCardFullHD{
-      width:40rem;
+      width:25rem;
       height:34rem;
+      padding-left:1rem;
     }
 
     .collage0{
