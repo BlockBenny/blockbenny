@@ -344,11 +344,17 @@ a {
   font-size: 3.5rem;
 }
 
+
+
 @media (max-width: 999px) {
+  .alice-carousel__wrapper{
+    height: 45rem !important;
+  }
+  
   .alice-carousel{
     z-index: 30;
     min-height: 100vh;
-    margin-top: 6rem;
+    margin-top: 20%;
   }
 }
 /* 2 */
@@ -356,7 +362,6 @@ a {
   .alice-carousel{
     z-index: 30;
     min-height: 100vh;
-    margin-top: 8rem;
   }
 }
 
