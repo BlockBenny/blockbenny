@@ -20,6 +20,12 @@ export default function Index() {
   const { language, setLanguage } = React.useContext(AppContext);
   const nextNav = React.useRef("techstack");
 
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
   useEffect(() => {
     const onScroll = () => SetNextSection(window.pageYOffset);
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -109,10 +115,12 @@ export default function Index() {
         <main className="font-play min-h-screen bg-gradient-to-br from-bgTL via-bgVIA to-bgTL">
           <nav
             sticky="top"
-            className="z-50 px-48 fixed min-w-full top-0 py-10 flex justify-between pr-48"
+            className="z-50 sm:px-24 md:px-48  fixed min-w-full top-0 py-10 flex justify-between lg:pr-48"
           >
-            <div className="flex z-80 relative h-11">
-              <Image alt="Logo" className="ml-32" src={logo} />
+            <div className="z-80 relative h-11 flex">
+              <div className="hidden lg:flex w-24">
+               <Image alt="Logo" className="ml-32" src={logo} />
+              </div>
               <a
                 onClick={() => {
                   scrollIntoSection("home");
@@ -124,7 +132,99 @@ export default function Index() {
                 </h1>
               </a>
             </div>
-            <ul className="flex items-center 4k:pr-10">
+            <div
+            className={`${
+                  mobileMenuOpen ? "" : "items-center"
+                } flex sm:w-2/5 lg:w-1/5 fullHd:w-full place-content-end mr-6`}
+              >
+              <div
+                className={`${
+                  mobileMenuOpen ? "block" : "hidden"
+                } fullHd:hidden w-3/4 float-left bg-bgTo bg-opacity-40 rounded-2xl`}
+              >
+                <div className="px-2 py-2">
+                  <a
+                    onClick={() => {
+                      scrollIntoSection("home");
+                    }}
+                    className="block px-2 py-1 font-semibold text-white hover:bg-gray-800"
+                  >
+                    {language.nav.home}
+                  </a>
+                  <a
+                    onClick={() => {
+                      scrollIntoSection("techstack");
+                    }}
+                    className="block px-2 py-1 font-semibold text-white hover:bg-gray-800"
+                  >
+                    {language.nav.techStack}
+                  </a>
+                  <a
+                    onClick={() => {
+                      scrollIntoSection("resume");
+                    }}
+                    className="block px-2 py-1 font-semibold text-white hover:bg-gray-800"
+                  >
+                    {language.nav.resume}
+                  </a>
+                  <a
+                    onClick={() => {
+                      scrollIntoSection("about");
+                    }}
+                    className="block px-2 py-1 font-semibold text-white hover:bg-gray-800"
+                  >
+                    {language.nav.about}
+                  </a>
+                </div>
+                <div className="px-2 py-2">
+                  <a
+                    className="flex items-center hover:text-textPink"
+                    onClick={() =>
+                      window.open("https://twitter.com/Wen_Alpha", "_blank")
+                    }
+                  >
+                    <CiTwitter className="h-6 w-6 mr-2" />
+                    <span className="text-xs font-semibold">Twitter</span>
+                    </a>
+                  <a
+                    className="flex items-center hover:text-textPink"
+                    onClick={() =>
+                      window.open("https://www.linkedin.com/in/bennyblock/", "_blank")
+                    }
+                  >
+                    <CiLinkedin className="h-6 w-6 mr-2" />
+                    <span className="text-xs font-semibold">LinkedIn</span>
+                  </a>
+                  <a
+                    className="flex items-center hover:text-textPink"
+                    onClick={() =>
+                      window.open("https://github.com/BlockBenny", "_blank")
+                    }
+                  >
+                    <AiFillGithub className="h-6 w-6 mr-2" />
+                    <span className="text-xs font-semibold">GitHub</span>
+                  </a>
+                </div>
+            </div>
+            <div className="block fullHd:hidden">
+            <button
+              className="flex px-3 py-2 border rounded text-textPink font-playB"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              <svg
+                className="fill-current h-3 w-3"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                {mobileMenuOpen ? (
+                  <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+                ) : (
+                  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                )}
+              </svg>
+            </button>
+          </div>
+            <ul className="hidden fullHd:flex items-center 4k:pr-10">
               <li>
                 <a
                   id="navHome"
@@ -206,6 +306,7 @@ export default function Index() {
                 />
               </li>
             </ul>
+            </div>
           </nav>
           <Home />
           <TechStack />
@@ -227,7 +328,7 @@ export default function Index() {
               className="z-20 cursor-pointer absolute bottom-12 h-10 w-10"
             />
           </div>
-          <div className="area">
+          <div className="hidden lg:flex area">
             <ul className="circles">
               <li></li>
               <li></li>
