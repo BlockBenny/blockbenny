@@ -30,7 +30,7 @@ export default function About() {
               <Image alt="Fourth of 4 Pics" src={about3} />
             </div>
           </div>
-          <div className="mt-24 4k:mt-48 fullHd:mt-32 lg:mt-20 4k:text-2xl fullHd:text-md 4k:pr-48 fullHd:pr-24">
+          <div className="mt-24 4k:mt-48 fullHd:mt-32 lg:mt-20 4k:text-2xl fullHd:text-lg 4k:pr-48 fullHd:pr-24">
             {parse(language.about.description)}
             <p className="mt-10 4k:text-2xl fullHd:text-lg">Contact me @</p>
             <p className="mt-2">benjamin.arand@web.de</p>
@@ -38,13 +38,31 @@ export default function About() {
             <div className="mt-2">
               <ul className="flex items-center">
                 <li>
-                  <CiTwitter onClick={() => window.open("https://twitter.com/Wen_Alpha", "_blank")} className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6" />
+                  <CiTwitter
+                    onClick={() =>
+                      window.open("https://twitter.com/Wen_Alpha", "_blank")
+                    }
+                    className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6"
+                  />
                 </li>
                 <li>
-                  <CiLinkedin onClick={() => window.open("https://www.linkedin.com/in/bennyblock/", "_blank")} className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6 ml-8" />
+                  <CiLinkedin
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/in/bennyblock/",
+                        "_blank"
+                      )
+                    }
+                    className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6 ml-8"
+                  />
                 </li>
                 <li>
-                  <AiFillGithub onClick={() => window.open("https://github.com/BlockBenny", "_blank")} className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6 ml-8" />
+                  <AiFillGithub
+                    onClick={() =>
+                      window.open("https://github.com/BlockBenny", "_blank")
+                    }
+                    className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6 ml-8"
+                  />
                 </li>
               </ul>
             </div>

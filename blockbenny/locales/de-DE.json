@@ -35,7 +35,7 @@
       "firstValue": "Megatech communicatin GmbH 2016-2018",
       "secondTitle": "Tech",
       "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL, MS Teams, Git, MSSQL, Oracle",
-      "description": "<p className='pb-5'>Nach meiner Ausbildung und fünf Jahren München zog ich in den Bayerischen Wald zurück und wurde bei der Megatech Communication GmbH als Software-Entwickler eingestellt.</p><br/><p>Ich wurde in meinen Full-Stack-Fähigkeiten gefördert und hatte von Anfang an Verantwortung für komplette Systeme.</p><br/><p> Mein erstes großes Projekt war der firmeneigene Webshop auf ASP.NET-Basis, bei dem ich mich in Bezug auf Datenbankstrukturen, E-Commerce, Skripting, Server-Client-Architektur, Sicherheit und Webtechnologien weiterbilden konnte.</p>"
+      "description": "<p className='pb-5'>Ich zog zurück in den Bayerischen Wald und begann als Softwareentwickler bei der Megatech Communication GmbH zu arbeiten. Ich hatte Full-Stack-Kenntnisse und war für komplette Systeme verantwortlich.</p><br/><p> Mein erstes großes Projekt war der Webshop des Unternehmens auf Basis von ASP.NET, den ich in Bezug auf Datenbankstrukturen bearbeitet habe, z -Commerce, Scripting, Server-Client-Architektur, Sicherheit und Webtechnologien.</p>"
     },
     {
       "topic": "Projektmanagement B2B",
@@ -43,7 +43,7 @@
       "firstValue": "Megatech communicatin GmbH 2018-Jetzt",
       "secondTitle": "Skills",
       "secondValue": "Projektmanagement, Kundenkommunikation, Consulting",
-      "description": "<p className='pb-5'>Nachdem ich mich in meinen Fähigkeiten als Entwickler sicher fühlte, wollte ich neue Dinge lernen und die Gelegenheit nutzen, für einige interne Projekte das Projektmanagement zu übernehmen.</p><br/><p> In den vergangenen Jahren war ich daher immer wieder dafür verantwortlich, Softwareprodukte für Kunden zu entwickeln. Dies umfasste die Bereiche Consulting, Projektplanung, Entwicklung, Tests, Abnahme und Installation.</p><br/><p> In dieser Zeit habe ich viel über Kundenkommunikation, Consulting, Projektplanung, Ressourcenplanung, Produktentwicklung, Versionsmanagement und vieles andere gelernt.</p>"
+      "description": "<p className='pb-5'>Nachdem ich Erfahrungen als Entwickler gesammelt hatte, wollte ich mehr lernen und übernahm die Projektleitung für interne Projekte. </p><br/><p> In letzter Zeit war ich für die Entwicklung von Softwareprodukten für Kunden verantwortlich, einschließlich Beratung, Projektplanung, Entwicklung, Tests, Abnahme und Installation.</p><br/><p> Ich habe viel über Kundenkommunikation, Beratung, Projektplanung, Ressourcenplanung, Produktentwicklung, Versionsverwaltung und mehr gelernt.</p>"
     },
     {
       "topic": "Ausbilder",
@@ -59,7 +59,7 @@
       "firstValue": "Megatech communicatin GmbH 2016-Jetzt",
       "secondTitle": "Tech",
       "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
-      "description": "<p className='pb-5'>Auch auf der Entwicklungsseite hat sich in dieser Zeit einiges getan. Ich habe mich in neue Technologien eingearbeitet und habe an zahlreichen internen und externen Projekten mitgewirkt.</p><br/><p> In dieser Zeit hat unser Team zahlreiche Softwareprodukte entwickelt und vertrieben, darunter beispielsweise einen UC-Client, ein Wallboard-System, ein internes Ticket- und Arbeitszeiten-Management-Tool, E-Commerce-Anwendungen und vieles mehr.</p><br/><p> Ich habe viel über Javascript/Typescript, Node.js, Vue.js, Webservices, Microservices, HTML/CSS, Bootstrap, MSSQL, Oracle, MongoDB gelernt und habe auch Backend-Services in C# .NET, Java oder Python geschrieben.</p>"
+      "description": "<p className='pb-5'>Ich habe Erfahrungen mit neuen Technologien gesammelt und an internen und externen Projekten gearbeitet. Unser Team hat Softwareprodukte entwickelt und vertrieben, darunter einen UC-Client, ein Wallboard-System, ein Ticket- und Arbeitszeitverwaltungstool, E-Commerce-Anwendungen und mehr.</p><br/><p>Ich habe Javascript gelernt /Typescript, Node.js, Vue.js, Webservices, Microservices, HTML/CSS, Bootstrap, MSSQL, Oracle, MongoDB und haben mit Back-End-Diensten in C# .NET, Java und Python gearbeitet.</p>"
     },
     {
       "topic": "Blockchain",
@@ -83,7 +83,7 @@
       "firstValue": "Alle",
       "secondTitle": "Skills",
       "secondValue": "Azure, AWS, Linode, Apache, Docker, Kubernetes, CI",
-      "description": "<p className='pb-5'>Als Full-Stack-Entwickler und Gründer eines Start-Ups muss man sich natürlich nicht nur um Datenbanken und Software kümmern. Man muss auch Kenntnisse im Bereich Netzwerke und Hosting erwerben.</p><br/><p> Um unsere Microservices, Proxies und Websites zu hosten, habe ich viel Erfahrung mit AWS und dessen Umgebung gesammelt. Ich habe auch viel Erfahrung mit Docker, Kubernetes, Apache und verschiedenen Linux-Distributionen gesammelt.</p><br/><p> Bei Megatech hatte ich auch die Möglichkeit, Erfahrungen in der Virtualisierung mit VSphere zu sammeln und umzusetzen.</p>"
+      "description": "<p className='pb-5'>Als Full-Stack-Entwickler und Gründer eines Start-Ups muss man sich auch auf das Hosting und das Netzwerk konzentrieren.</p><br/><p> Um unsere Microservices, Proxies und Websites zu hosten, habe ich viel Erfahrung mit AWS und dessen Umgebung gesammelt. Ich habe auch viel Erfahrung mit Docker, Kubernetes, Apache und verschiedenen Linux-Distributionen gesammelt.</p><br/><p> Bei Megatech hatte ich auch die Möglichkeit, Erfahrungen in der Virtualisierung mit VSphere zu sammeln und umzusetzen.</p>"
     }
   ],
   "about": {

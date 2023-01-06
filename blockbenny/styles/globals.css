@@ -362,6 +362,7 @@ a {
   .alice-carousel{
     z-index: 30;
     min-height: 100vh;
+    margin-top: 6rem;
   }
 }
 
@@ -369,7 +370,7 @@ a {
   .alice-carousel{
     z-index: 30;
     min-height: 100vh;
-    margin-top: -8rem;
+    margin-top: 0;
   }
 }
 
