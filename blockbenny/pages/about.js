@@ -56,14 +56,14 @@ export default function About() {
                     className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6 ml-8"
                   />
                 </li>
-                <li>
+                {/* <li>
                   <AiFillGithub
                     onClick={() =>
                       window.open("https://github.com/BlockBenny", "_blank")
                     }
                     className="cursor-pointer 4K:h-10 4K:w-10 fullHd:w-6 fullHd:h-6 ml-8"
                   />
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

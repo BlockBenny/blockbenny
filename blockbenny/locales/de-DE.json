@@ -19,7 +19,7 @@
       "firstValue": "TUM & LMU 2011-2014",
       "secondTitle": "Tech",
       "secondValue": "JAVA, HTML, JS, CSS, Perl, Eclipse, Git",
-      "description": "<p className='pb-5'>Nach meinem Abitur zog ich nach München und studierte Elektro- und Informationstechnologien an der TUM.</p><br/><p>Ich wechselte jedoch zu Lehramt Informatik und Physik an der LMU, da ich mich mehr für Programmierung interessierte und gerne mit Menschen arbeiten wollte.</p><br/><p> Nach zwei Semestern und einem Praktikum stellte ich jedoch fest, dass eine schulische Umgebung möglicherweise nicht das Richtige für mich ist.</p>"
+      "description": "<p className='pb-5'>Nach meinem Abitur zog ich nach München und studierte Elektro- und Informationstechnologien an der TUM.</p><br/><p>Ich wechselte jedoch zu Lehramt Informatik und Physik an der LMU, da ich mich mehr für Programmierung interessierte und gerne mit Menschen arbeiten wollte.</p><br/><p> Zwei Semester und ein Praktikum später stellte ich jedoch fest, dass eine schulische Umgebung möglicherweise nicht das Richtige für mich ist.</p>"
     },
     {
       "topic": "Ausbildung",
@@ -27,7 +27,7 @@
       "firstValue": "Muenchener Verein 2014-2016",
       "secondTitle": "Tech",
       "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl, JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
-      "description": "<p className='pb-5'>Ich wurde nach meinem Studium an der Universität München als Fachinformatiker für Anwendungsentwicklung beim Münchner Verein e.V. ausgebildet. Die Azubis wurden blockweise in der CSS Akademie unterrichtet und erhielten Schulungen in verschiedenen Programmiersprachen, Frameworks, Netzwerken und Soft Skills.</p><br/><p> Ich arbeitete zwei Jahre lang mit COBOL auf einem Siemens BS2000 und entwickelte und betreute Full-Stack-Anwendungen mit Oracle, JAVA und Webtechnologien.</p>"
+      "description": "<p className='pb-5'>Ich wurde nach meinem Studium als Fachinformatiker für Anwendungsentwicklung beim Münchner Verein e.V. ausgebildet. Die Azubis wurden blockweise in der CSS Akademie unterrichtet und erhielten Schulungen in diversen Programmiersprachen, Frameworks und Soft Skills.</p><br/><p> Ich arbeitete zwei Jahre lang mit COBOL auf einem Siemens BS2000 und entwickelte und betreute Full-Stack-Anwendungen mit Oracle, JAVA und den damals gängigen Webtechnologien.</p>"
     },
     {
       "topic": "Weg zum Full Stack Developer",
@@ -35,7 +35,7 @@
       "firstValue": "Megatech communicatin GmbH 2016-2018",
       "secondTitle": "Tech",
       "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL, MS Teams, Git, MSSQL, Oracle",
-      "description": "<p className='pb-5'>Ich zog zurück in den Bayerischen Wald und begann als Softwareentwickler bei der Megatech Communication GmbH zu arbeiten. Ich hatte Full-Stack-Kenntnisse und war für komplette Systeme verantwortlich.</p><br/><p> Mein erstes großes Projekt war der Webshop des Unternehmens auf Basis von ASP.NET, den ich in Bezug auf Datenbankstrukturen bearbeitet habe, z -Commerce, Scripting, Server-Client-Architektur, Sicherheit und Webtechnologien.</p>"
+      "description": "<p className='pb-5'>Ich zog zurück in den Bayerischen Wald und begann als Softwareentwickler bei der Megatech communication GmbH zu arbeiten. Ich erlangte Full-Stack-Kenntnisse und war für Komplettsysteme verantwortlich.</p><br/><p> Mein erstes großes Projekt war die Entwicklung des firmeneigenen Webshops auf Basis von ASP.NET. Zu den gewonnen Erfahrungen zählen die Entwicklung in ASP.NET, E-Commerce, Scripting, Server-Client-Architektur, Sicherheit und Webtechnologien.</p>"
     },
     {
       "topic": "Projektmanagement B2B",
@@ -43,7 +43,7 @@
       "firstValue": "Megatech communicatin GmbH 2018-Jetzt",
       "secondTitle": "Skills",
       "secondValue": "Projektmanagement, Kundenkommunikation, Consulting",
-      "description": "<p className='pb-5'>Nachdem ich Erfahrungen als Entwickler gesammelt hatte, wollte ich mehr lernen und übernahm die Projektleitung für interne Projekte. </p><br/><p> In letzter Zeit war ich für die Entwicklung von Softwareprodukten für Kunden verantwortlich, einschließlich Beratung, Projektplanung, Entwicklung, Tests, Abnahme und Installation.</p><br/><p> Ich habe viel über Kundenkommunikation, Beratung, Projektplanung, Ressourcenplanung, Produktentwicklung, Versionsverwaltung und mehr gelernt.</p>"
+      "description": "<p className='pb-5'>Nachdem ich Erfahrungen als Full Stack Entwickler gesammelt hatte, wollte ich mich weiterbilden und übernahm die Projektleitung für interne Projekte. </p><br/><p> In letzter Zeit war ich für die Entwicklung von Softwareprodukten für Kunden verantwortlich, einschließlich Beratung, Projektplanung, Entwicklung, Tests, Abnahme und Installation.</p><br/><p> Ich habe viel über Kundenkommunikation (B2B & B2C), Beratung, Projektplanung, Ressourcenplanung, Produktentwicklung, Versionsverwaltung und mehr gelernt.</p>"
     },
     {
       "topic": "Ausbilder",
@@ -59,7 +59,7 @@
       "firstValue": "Megatech communicatin GmbH 2016-Jetzt",
       "secondTitle": "Tech",
       "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL",
-      "description": "<p className='pb-5'>Ich habe Erfahrungen mit neuen Technologien gesammelt und an internen und externen Projekten gearbeitet. Unser Team hat Softwareprodukte entwickelt und vertrieben, darunter einen UC-Client, ein Wallboard-System, ein Ticket- und Arbeitszeitverwaltungstool, E-Commerce-Anwendungen und mehr.</p><br/><p>Ich habe Javascript gelernt /Typescript, Node.js, Vue.js, Webservices, Microservices, HTML/CSS, Bootstrap, MSSQL, Oracle, MongoDB und haben mit Back-End-Diensten in C# .NET, Java und Python gearbeitet.</p>"
+      "description": "<p className='pb-5'>Ich habe Erfahrungen mit neuen Technologien gesammelt und an internen und externen Projekten gearbeitet. Unser Team hat Softwareprodukte entwickelt und vertrieben, darunter einen UC-Client, ein Wallboard-System, ein Ticket- und Arbeitszeitverwaltungstool, E-Commerce-Anwendungen und mehr.</p><br/><p>Ich arbeitete viel mit JS/TS, Node.js, Vue.js, Webservices, Microservices, HTML/CSS, Bootstrap, MSSQL, Oracle, MongoDB und mit Back-End-Diensten wie C# .NET, Java und Python.</p>"
     },
     {
       "topic": "Blockchain",
@@ -67,7 +67,7 @@
       "firstValue": "Privat (2018-jetzt)",
       "secondTitle": "Tech",
       "secondValue": "Solidity, EVM, Remix, web3.js, ether.js, LINK, DOT",
-      "description": "<p className='pb-5'>Ich habe zum ersten Mal von Blockchain im Jahr 2012 gehört, mich aber erst 2018 wirklich dafür interessiert. Ich habe viel gelesen, Videos geguckt, Whitepaper studiert und wurde dann Teil eines Crypto-Projekts als Kundendienstmitarbeiter und Entwickler.</p><br/><p> Dort konnte ich Einblicke in die Prozesse eines dezentralen Unternehmens gewinnen und habe fließend Englisch gelernt.</p><br/><p> Das Projekt musste aus finanziellen Gründen jedoch fast alle Mitarbeiter entlassen.</p>"
+      "description": "<p className='pb-5'>Ich habe zum ersten Mal von Blockchain im Jahr 2012 gehört, mich aber erst 2018 wirklich damit beschäftigt. Ich habe diesen neuen Bereich durch Literatur und Videos kennengelernt, Whitepaper studiert und wurde dann Teil eines Crypto-Projekts als Kundendienstmitarbeiter und Entwickler.</p><br/><p> Dort konnte ich Einblicke in die Prozesse eines dezentralen Unternehmens gewinnen und habe fließend Englisch gelernt.</p><br/><p> Das Projekt musste aus finanziellen Gründen jedoch fast alle Mitarbeiter entlassen.</p>"
     },
     {
       "topic": "Gründung WenServices",
@@ -75,7 +75,7 @@
       "firstValue": "Privat 2022 - Jetzt",
       "secondTitle": "Skills",
       "secondValue": "StartUp Management, Personalführung, Verhandlungen, Geschäftsführung",
-      "description": "<p className='pb-5'>Im letzten Jahr gründete ich mit einem Freund aus Dänemark WenServices und entwickelte ein Crypto-Management-SaaS-Produkt.</p><br/><p>Ich sammelte Erfahrungen in Personalführung, Start-Up, Projektmanagement, Kommunikation, Aquise, Content-Creation, Social Media, Blockchain-Entwicklung und mehr.</p><br/><p> Ich entwickelte einen eigenen Token und die Blockchain-Website BetWithFriends auf Solidity-Basis, schrieb Bots und erstellte Websites mit react.js und vue.js.</p>"
+      "description": "<p className='pb-5'>Im letzten Jahr gründete ich mit einem Freund aus Dänemark das Projekt 'WenServices'. Wir entwickeln ein Management-SaaS-Produkt für Blockchain Businesses in unserer Freizeit.</p><br/><p>Ich sammelte Erfahrungen in Personalführung, Start-Up, Projektmanagement, Kommunikation, Aquise, Content-Creation, Social Media, Blockchain-Entwicklung und mehr.</p><br/><p> Ich entwickelte einen eigenen Token, schrieb Bots und erstellte Websites mit react.js und vue.js.</p>"
     },
     {
       "topic": "Hosting & Administration",
@@ -83,10 +83,10 @@
       "firstValue": "Alle",
       "secondTitle": "Skills",
       "secondValue": "Azure, AWS, Linode, Apache, Docker, Kubernetes, CI",
-      "description": "<p className='pb-5'>Als Full-Stack-Entwickler und Gründer eines Start-Ups muss man sich auch auf das Hosting und das Netzwerk konzentrieren.</p><br/><p> Um unsere Microservices, Proxies und Websites zu hosten, habe ich viel Erfahrung mit AWS und dessen Umgebung gesammelt. Ich habe auch viel Erfahrung mit Docker, Kubernetes, Apache und verschiedenen Linux-Distributionen gesammelt.</p><br/><p> Bei Megatech hatte ich auch die Möglichkeit, Erfahrungen in der Virtualisierung mit VSphere zu sammeln und umzusetzen.</p>"
+      "description": "<p className='pb-5'>Als Full-Stack-Entwickler und Gründer eines Start-Ups muss man sich auch auf das Hosting und die Administration konzentrieren.</p><br/><p> Um unsere Microservices, Proxies und Websites zu hosten, habe ich viel Erfahrung mit AWS und dessen Umgebung gesammelt. Ich habe auch viel Erfahrung mit Docker, Kubernetes, Apache und verschiedenen Linux-Distributionen gesammelt.</p><br/><p> Bei Megatech hatte ich auch die Möglichkeit, Erfahrungen in der Virtualisierung mit VSphere zu sammeln und umzusetzen.</p>"
     }
   ],
   "about": {
-    "description": "<p>Am wichtigsten ist, dass ich ein liebevoller Ehemann, Stiefvater von 4 Kindern und stolz auf mein Leben bin.</p><p className='mt-5'>In den letzten sechs Jahren war ich in der Telekommunikationsbranche beschäftigt , der hauptsächlich B2B-Kunden betreut.<br />Durch diese Rolle habe ich wertvolle Erfahrungen in den Bereichen Kommunikation, Produktentwicklung und Kundenakquise gesammelt.<br />Derzeit bin ich als Full-Stack-Entwickler und Projektmanager tätig.</p> <p className='mt-5'>2018 begann ich mich für die Blockchain-Technologie zu interessieren und bin seitdem begeistert von deren Potenzial.<br />Ich habe für ein Kryptowährungsprojekt im Kundenservice und in der Entwicklung gearbeitet.</p><p className='mt-5'>Im Dezember 2021 habe ich WenServices gegründet, ein Softwareunternehmen, das in unserer Freizeit eine SaaS-Lösung für das Krypto-Business-Management entwickelt.Durch dieses Unternehmen habe ich Erfahrung im Management gesammelt Start-up-Herausforderungen, Führung eines kleinen Teams und Bewältigung verschiedener Aufgaben.Aufgrund der verstreuten Standorte unserer Teammitglieder ers, ich habe meine Fähigkeiten in englischer Kommunikation und Verhandlung verbessert.</p><p className='mt-5'>Zusätzlich habe ich Kurse in Solidity belegt und mehrere Projekte mit der Ethereum-Blockchain abgeschlossen. Als Entwickler, Projektmanager und Gründer habe ich eine Reihe von Hard- und Soft-Skills entwickelt.</p><p className='mt-5'>Ich beherrsche Remote-Arbeit und setze mich dafür ein, außergewöhnliche Ergebnisse zu liefern.</p>"
+    "description": "<p>Ich bin ein 31-jähriger Stiefvater, liebevoller Ehemann und im Allgemeinen zufriedener Mensch, der in Deutschland lebt.</p><br/><p>Als Full-Stack-Entwickler mit über 8 Jahren Erfahrung bin ich ein kompetenter und engagierter Fachmann. In meiner vorherigen Rolle als Full Stack Developer bei einem mittelständischen Telekommunikationsunternehmen konnte ich eine komplett neue Softwareabteilung von Grund auf mit aufbauen. Dies gab mir die Möglichkeit, verschiedene Rollen zu übernehmen, darunter Projektmanager, Ausbilder, Consultor und Kunden Support.</p><br/><p>Zusätzlich zu meinen technischen Fähigkeiten bin ich Erfahren in Kundenkommunikation (B2B & B2C) und besitze fließende Englischkenntnisse. Ich bin Business-Minded und habe den Erfolg des Unternehmens stets im Blick. Durch mein software Projekt WenServices, welches eine Management-SaaS-Lösung für Kryptounternehmen entwickelt, habe ich auch wertvolle Erfahrungen in den Bereichen Start-up-Management, Teamführung und Verhandlung gesammelt.</p><br/><p>Eine meiner größten Stärken ist meine Fähigkeit, schnell zu lernen und mich voll und ganz auf meine Arbeit einzulassen. Ich bin auch ein innovativ- und unternehmerisch denkender Mensch. Ich kämpfe jedoch mit Multitasking und habe gelegentlich zu viele Ideen auf einmal in meinem Kopf. Ich durfte festgestellen, dass die Verwendung von chatGPT als persönlicher Assistent meine Arbeitseffizienz um mindestens 30 % deutlich gesteigert hat. Ich glaube, dass wir mit dem Einsatz von KI-basierten Tools das Potenzial haben, die Effizienz in den kommenden Jahren um das 2- bis 10-fache zu steigern.</p><br/><p>In einer Remote-Arbeitsumgebungen kann ich mich selbst organisieren und liefere konstante, qualitative Ergebnisse.</p>"
   }
 }

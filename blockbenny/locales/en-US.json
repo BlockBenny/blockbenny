@@ -201,7 +201,7 @@
       "firstValue": "TUM & LMU 2011-2014",
       "secondTitle": "Tech",
       "secondValue": "JAVA, HTML, JS, CSS, Perl, Eclipse, Git",
-      "description": "<p className='pb-5'>After completing high school, I moved to Munich and studied Electrical and Information Technologies at TUM.</p><br/><p>However, I switched to the teaching degree in Computer Science and Physics at LMU because I was more interested in programming and enjoyed working with people.</p><br/><p>After two semesters and an internship, I realized that a school environment may not be the right fit for me.</p>"
+      "description": "<p className='pb-5'>After completing high school, I moved to Munich and studied Electrical and Information Technologies at the 'Technical University Munich' (TUM).</p><br/><p>However, I switched to the teaching degree in Computer Science and Physics at the 'Ludwigs Maximilian Universität' (LMU) because I was more interested in programming and enjoyed working with people.</p><br/><p>After two semesters and an internship, I realized that a school environment may not be the right fit for me.</p>"
     },
     {
       "topic": "Further Education",
@@ -209,7 +209,7 @@
       "firstValue": "Muenchener Verein 2014-2016",
       "secondTitle": "Tech",
       "secondValue": "JAVA, COBOL, BAT, PS, HTML, JS, CSS, Perl, JIRA, Eclipse, Siemens BS2000, Jenkins, Git",
-      "description": "<p className='pb-5'>After completing my studies at the University of Munich, I was trained as an application developer at Münchner Verein e.V. The apprentices were taught in blocks at CSS Academy and received training in various programming languages, frameworks, networks and soft skills.</p><br/><p>I worked with COBOL on a Siemens BS2000 for two years and developed and maintained full-stack applications with Oracle, JAVA, and web technologies.</p>"
+      "description": "<p className='pb-5'>After my studies at the Universities of Munich, I was trained as an application developer at Münchner Verein e.V. The apprentices were taught in blocks at CSS Academy and received training in various programming languages, frameworks, networks and soft skills.</p><br/><p>I worked with COBOL on a Siemens BS2000 for two years and developed and maintained full-stack applications with Oracle, JAVA, and web technologies.</p>"
     },
     {
       "topic": "Becoming a Full Stack Developer",
@@ -217,7 +217,7 @@
       "firstValue": "Megatech communicatin GmbH 2016-2018",
       "secondTitle": "Tech",
       "secondValue": "C# .NET, C++, JAVA, BAT, PS, VBScript, JS, HTML/CSS, SQL, MS Teams, Git, MSSQL, Oracle",
-      "description": "<p className='pb-5'>I moved back to the Bavarian Forest and started working as a software developer at Megatech Communication GmbH. I had full-stack skills and was responsible for complete systems.</p><br/><p> My first major project was the company's web shop based on ASP.NET, which I worked on in terms of database structures, e-commerce, scripting, server-client architecture, security, and web technologies.</p>"
+      "description": "<p className='pb-5'>I moved back to the Bavarian Forest and started working as a Full Stack Developer at Megatech communication GmbH. I gained full-stack skills and was responsible for complete systems.</p><br/><p> My first major project was the company's web shop based on ASP.NET, which I worked on in terms of database structures, e-commerce, scripting, server-client architecture, security, and web technologies.</p>"
     },
     {
       "topic": "Project Management B2B",
@@ -233,7 +233,7 @@
       "firstValue": "WenServices 2020-Jetzt",
       "secondTitle": "Skills",
       "secondValue": "HR, Leadership, Trainings / Instructions",
-      "description": "<p className='pb-5'>Because I've always enjoyed working with people, I had the opportunity to take on the position of head instructor.</p><br/><p>During this time I I hired and supervised more than eight trainees and prepared them for their final exams.</p><br/><p>During this time I was able to gain a lot of experience in the areas of personnel management, communication, planning, training and lectures.</p>"
+      "description": "<p className='pb-5'>Because I've always enjoyed working with people, I had the opportunity to take on the position of head instructor.</p><br/><p>During this time I hired and supervised more than eight trainees and prepared them for their final exams.</p><br/><p>During this time I was able to gain a lot of experience in the areas of personnel management, communication, planning, training and lectures.</p>"
     },
     {
       "topic": "Full Stack Technologies",
@@ -249,7 +249,7 @@
       "firstValue": "Privat (2018-jetzt)",
       "secondTitle": "Tech",
       "secondValue": "Solidity, EVM, Remix, web3.js, ether.js, LINK, DOT",
-      "description": "<p className='pb-5'>I first heard about blockchain in 2012 but didn't really get interested in it until 2018. I read a lot, watched videos, studied whitepapers and then became part of a crypto project as Customer service representatives and developers.</p><br/><p> There I was able to gain insight into the processes of a decentralized company and learned fluent English.</p><br/><p> However, the project had to be financed almost all employees laid off.</p>"
+      "description": "<p className='pb-5'>I heard about blockchain in 2012 but didn't really get interested in it until 2018. I read a lot, watched videos, studied whitepapers and then became part of a crypto project as Customer service representative and developer.</p><br/><p> There I was able to gain insight into the processes of a decentralized company and learned communicating in english.</p><br/><p>However, the project had to be financed almost all employees laid off.</p>"
     },
     {
       "topic": "Founding WenServices",
@@ -257,7 +257,7 @@
       "firstValue": "Privat 2022 - Jetzt",
       "secondTitle": "Skills",
       "secondValue": "StartUp Management, Leadership, Negotiation, Company Management",
-      "description": "<p className='pb-5'>Last year I founded WenServices with a friend from Denmark and developed a crypto management SaaS product.</p><br/><p>I gained experience in people management, Start-up, project management, communication, acquisition, content creation, social media, blockchain development and more.</p><br/><p> I developed my own token and solidity-based blockchain website BetWithFriends, wrote bots and built websites using react.js and vue.js.</p>"
+      "description": "<p className='pb-5'>Last year I founded WenServices with a friend from Denmark. We are developing a management SaaS product for blockchain businesses in our spare time.</p><br/><p>I gained experience in leadership, Start-up, project management, communication, acquisition, content creation, social media, blockchain development and more.</p><br/><p> I developed my own token and solidity-based blockchain website BetWithFriends, wrote bots and built websites using react.js and vue.js.</p>"
     },
     {
       "topic": "Hosting & Administration",
@@ -269,6 +269,6 @@
     }
   ],
   "about": {
-    "description": "<p>Most importantly, I am a loving husband, stepfather of 4 and proud of my life.</p><p className='mt-5'>For the past six years, I have been employed in the telecommunications industry, serving primarily B2B clients.<br />Through this role, I have gained valuable experience in communication, product development, and customer acquisition.<br />Currently, I serve as a Full Stack Developer and Project Manager.</p><p className='mt-5'>In 2018, I became interested in blockchain technology and have since been enthusiastic about the potential it holds.<br />I have worked for a cryptocurrency project in the customer service and development departments.</p><p className='mt-5'>In December of 2021, I founded WenServices, a software company that is developing a SaaS solution for crypto business management in our spare time. Through this venture, I have gained experience in managing start-up challenges, leading a small team, and handling various tasks. Due to the dispersed location of our team members, I have honed my skills in English communication andnegotiation.</p><p className='mt-5'>Additionally, I have taken courses in Solidity and have completed several projects using the Ethereum blockchain. As a Developer,Project Manager, and founder, I have developed a range of hard and soft skills.</p><p className='mt-5'>I am proficient in remote work and am committed to delivering exceptional results.</p>"
+    "description": "<p>I am a 31-year-old stepfather, loving husband, and generally content individual living in Germany.</p><br/><p>As Full Stack Developer with over 8 years of experience, I am a highly skilled and dedicated professional. In my previous role as a Full Stack Developer at a medium-sized telecommunications company, I was able to help establish a brand new software department from the ground up. This gave me the opportunity to take on various roles including Project Manager, Instructor, Consultant, and Support.</p><br/><p>In addition to my technical skills, I am also a strong communicator with fluency in English, as well as a business-minded individual who always keeps the success of the company in mind. I have also gained valuable experience in start-up management, team leadership, and negotiation through my side project, WenServices, a software company that is developing a Management SaaS solution for crypto businesses.</p><br/><p>One of my greatest strengths is my ability to learn quickly and fully commit to my work. I am also an innovative and entrepreneurial thinker. However, I do struggle with multitasking and occasionally have too many ideas bouncing around in my head at once. Despite this, I have found that using chatGPT as a personal assistant has significantly increased my work efficiency by at least 30%. I believe that with the use of AI-based assistance, we have the potential to increase efficiency by 2-10 times in the coming years.</p><br/><p>Overall, I am confident in my ability to excel in remote work environments and consistently deliver excellent results.</p>"
   }
 }

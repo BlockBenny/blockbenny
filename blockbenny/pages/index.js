@@ -203,7 +203,7 @@ export default function Index() {
                     <CiLinkedin className="h-6 w-6 mr-2" />
                     <span className="text-xs font-semibold">LinkedIn</span>
                   </a>
-                  <a
+                  {/* <a
                     className="flex items-center hover:text-textPink"
                     onClick={() =>
                       window.open("https://github.com/BlockBenny", "_blank")
@@ -211,7 +211,7 @@ export default function Index() {
                   >
                     <AiFillGithub className="h-6 w-6 mr-2" />
                     <span className="text-xs font-semibold">GitHub</span>
-                  </a>
+                  </a> */}
                 </div>
                 <div className="h-10 w-10 ml-8">
                   <Image
@@ -305,14 +305,14 @@ export default function Index() {
                     className="cursor-pointer h-10 w-10 ml-8"
                   />
                 </li>
-                <li>
+                {/* <li>
                   <AiFillGithub
                     onClick={() =>
                       window.open("https://github.com/BlockBenny", "_blank")
                     }
                     className="cursor-pointer h-10 w-10 ml-8"
                   />
-                </li>
+                </li> */}
                 <li className="h-10 w-10 ml-10">
                   <Image
                     src={flagSrc}

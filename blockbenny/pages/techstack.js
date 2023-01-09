@@ -8,8 +8,14 @@ export default function TechStack() {
   const [options, setOptions] = useState({
     chart: {
       type: "bar",
+      events: {
+        click: null,
+      },
       toolbar: {
         show: false,
+      },
+      selection: {
+        enabled: false,
       },
     },
     yaxis: {
@@ -62,10 +68,18 @@ export default function TechStack() {
           type: "none",
         },
       },
+      active: {
+        filter: {
+          type: "none" /* none, lighten, darken */,
+        },
+      },
     },
     colors: ["#FFFFFF"],
     fill: {
       colors: ["#FF00B8"],
+    },
+    tooltip: {
+      enabled: false,
     },
     dataLabels: {
       enabled: false,
@@ -125,10 +139,18 @@ export default function TechStack() {
       },
     ]);
 
-    document.getElementById("languageTitle").classList.remove("text-textPink", "font-playB");
-    document.getElementById("frameworksTitle").classList.remove("text-textPink", "font-playB");
-    document.getElementById("toolsTitle").classList.remove("text-textPink", "font-playB");
-    document.getElementById("softSkillsTitle").classList.remove("text-textPink", "font-playB");
+    document
+      .getElementById("languageTitle")
+      .classList.remove("text-textPink", "font-playB");
+    document
+      .getElementById("frameworksTitle")
+      .classList.remove("text-textPink", "font-playB");
+    document
+      .getElementById("toolsTitle")
+      .classList.remove("text-textPink", "font-playB");
+    document
+      .getElementById("softSkillsTitle")
+      .classList.remove("text-textPink", "font-playB");
 
     document.getElementById(elId).classList.add("text-textPink", "font-playB");
   }
@@ -141,7 +163,10 @@ export default function TechStack() {
             id="languageTitle"
             className="w-full text-2xl  p-4 rounded  text-textPink font-playB"
             onClick={() => {
-              ChangeChartSeries(enUS.techStack.languages.values, "languageTitle");
+              ChangeChartSeries(
+                enUS.techStack.languages.values,
+                "languageTitle"
+              );
             }}
           >
             {enUS.techStack.languages.title}
@@ -150,7 +175,10 @@ export default function TechStack() {
             id="frameworksTitle"
             className="w-full text-2xl  p-4  rounded "
             onClick={() => {
-              ChangeChartSeries(enUS.techStack.frameworks.values, "frameworksTitle");
+              ChangeChartSeries(
+                enUS.techStack.frameworks.values,
+                "frameworksTitle"
+              );
             }}
           >
             {enUS.techStack.frameworks.title}
@@ -168,13 +196,23 @@ export default function TechStack() {
             id="softSkillsTitle"
             className="w-full text-2xl p-4 rounded"
             onClick={() => {
-              ChangeChartSeries(enUS.techStack.softSkills.values, "softSkillsTitle");
+              ChangeChartSeries(
+                enUS.techStack.softSkills.values,
+                "softSkillsTitle"
+              );
             }}
           >
             {enUS.techStack.softSkills.title}
           </button>
         </div>
-        <Charts id="chart" options={options} series={series} type="bar" height="40%" className="z-30 -mt-10 lg:-mt-5 lg:pr-32 lg:pl-24 fullHd:pr-80 fullHd:pl-64 relative lg:pt-10" />
+        <Charts
+          id="chart"
+          options={options}
+          series={series}
+          type="bar"
+          height="40%"
+          className="z-30 -mt-10 lg:-mt-5 lg:pr-32 lg:pl-24 fullHd:pr-80 fullHd:pl-64 relative lg:pt-10"
+        />
       </section>
     </>
   );
